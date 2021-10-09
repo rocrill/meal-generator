@@ -1,13 +1,17 @@
 .plate-area {
     
     background-color: aqua;
-  }
+}
 
-  #plate {
-      border-radius: 300px;
-      background: red;
-      background-repeat: repeat;
-      padding: 20px;
-      margin: 80px 20px 20px 400px;
-      width: 500px;
-      height: 500px;}
+
+#plate {
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(45deg, lightblue, lightblue), linear-gradient(135deg, lightgreen, lightgreen), linear-gradient(225deg, #F0E68C, #F0E68C) , linear-gradient(225deg, #F08080, #F08080);
+  background-size: 50% 50%;
+  background-position: 0% 0%, 0% 100%, 100% 0%, 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 80px 20px 20px 150px;
+}
+
