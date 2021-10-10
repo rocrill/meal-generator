@@ -42,15 +42,19 @@ body {
     }
 
     #menu {
-      font-size: 110%;
+      font-size: 150%;
       letter-spacing: 4px;
-      line-height: 2px;
+      position: absolute;
+      top: 23px;
+      right:0;
+
   }
   
   #menu li {
       float: right;
       list-style-type: none;
       margin-right: 80px;
+    
   }
   
   #menu a {
@@ -69,8 +73,8 @@ body {
 #heading {
   font-size: 250%;
   letter-spacing: 4px;
-  line-height: 20px;
-  margin-left:20px;
-  margin-top: 50px;
+  position: absolute;
+  top: 10px;
+  left:40px;
 
 }
