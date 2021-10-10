@@ -1,4 +1,9 @@
 
+body {
+  font-family: Quattrocento, sans-serif;
+  color:black;
+
+}
 
 #veg-portion {
   width: 150px;
@@ -35,3 +40,37 @@
       top:150px;
       left:350px;
     }
+
+    #menu {
+      font-size: 110%;
+      letter-spacing: 4px;
+      line-height: 2px;
+  }
+  
+  #menu li {
+      float: right;
+      list-style-type: none;
+      margin-right: 80px;
+  }
+  
+  #menu a {
+      text-decoration: none;
+      color: inherit;
+  }
+  
+  #menu a:hover {
+      border-bottom: 1px solid #3a3a3a;
+  }
+
+  .active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#heading {
+  font-size: 250%;
+  letter-spacing: 4px;
+  line-height: 20px;
+  margin-left:20px;
+  margin-top: 50px;
+
+}
