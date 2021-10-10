@@ -1,17 +1,37 @@
-.plate-area {
+
+
+#veg-portion {
+  width: 150px;
+  height: 300px; 
+  border-radius: 150px 0 0 150px;
+  background-image: url('../images/logo.png');
+  position: absolute;
+  top: 0;
+  left:0;
+  }
+
+  #protein-portion {
+      width: 150px;
+      height: 150px;
+      border-radius: 0 150px 0 0;
+      background-color: red;
+      position: absolute;
+      top: 0;
+      left:150px;
+    }
+  
+    #carb-portion {
+      width: 150px;
+      height: 150px;
+      border-radius: 0 0 150px 0px;
+      background-image: url('../images/logo.png');
+      position: absolute;
+      top: 150px;
+      left: 150px;
+    }
     
-    background-color: aqua;
-}
-
-
-#plate {
-  width: 500px;
-  height: 500px;
-  background: linear-gradient(45deg, lightblue, lightblue), linear-gradient(135deg, lightgreen, lightgreen), linear-gradient(225deg, #F0E68C, #F0E68C) , linear-gradient(225deg, #F08080, #F08080);
-  background-size: 50% 50%;
-  background-position: 0% 0%, 0% 100%, 100% 0%, 100% 100%;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  margin: 80px 20px 20px 150px;
-}
-
+    #plate-area {
+      position:relative;
+      top:150px;
+      left:350px;
+    }
