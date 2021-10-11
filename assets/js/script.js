@@ -6,17 +6,19 @@ function generateMeal() {
     let carb = [
         "url('./assets/images/fried-rice.jpg')",
         "url('./assets/images/mashed-potatoes.jpg')",
-        "url('./assets/images/logo.png')"
+        "url('./assets/images/2-slices-sourdough.jpg')",
+        "url('./assets/images/portion-of-penne.jpg')",
+        "url('./assets/images/sweet-potato-fries.jpg')",
     ];
 
     let carbSelection = getRandomInt(0, carb.length)
     
     let veg = [
-        "url('./assets/images/roastbroc.png')",
         "url('./assets/images/roast-asparagus.jpg')",
         "url('./assets/images/roasted-peppers.jpg')",
         "url('./assets/images/spinach-salad.jpg')",
-        "url('./assets/images/sweet-potato-fries.jpg')",
+        "url('./assets/images/broccoli.jpg')",
+        
     ];
 
     let vegSelection = getRandomInt(0, veg.length)
