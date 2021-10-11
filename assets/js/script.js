@@ -4,7 +4,7 @@ function generateMeal() {
     document.getElementById("carb-portion").style.backgroundImage = "url('./assets/images/rice.png')";
     
     let carb = [
-        "url('./assets/images/rice.png')",
+        "url('./assets/images/fried-rice.jpg')",
         "url('./assets/images/mashed-potatoes.jpg')",
         "url('./assets/images/logo.png')"
     ];
@@ -16,7 +16,7 @@ function generateMeal() {
         "url('./assets/images/roast-asparagus.jpg')",
         "url('./assets/images/roasted-peppers.jpg')",
         "url('./assets/images/spinach-salad.jpg')",
-        "url('./assets/images/fried-carrots-and-broccoli.jpg')",
+        "url('./assets/images/sweet-potato-fries.jpg')",
     ];
 
     let vegSelection = getRandomInt(0, veg.length)
