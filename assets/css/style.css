@@ -10,10 +10,9 @@ body {
   height: 600px; 
   border-radius: 300px 0 0 300px;
   background-image: url('../images/vegetables.jpg');
-  
   position: absolute;
   top: 0;
-  left:0;
+  left:300px;
 
   }
 
@@ -27,7 +26,7 @@ body {
       background-size: cover;
       position: absolute;
       top: 0;
-      left:300px;
+      left:600px;
     }
   
     #carb-portion {
@@ -40,7 +39,7 @@ body {
       background-position: center;
       background-size: cover;
       top: 300px;
-      left: 300px;
+      left: 600px;
     }
     
     #plate-area {
@@ -89,40 +88,27 @@ body {
 
 .inspire-button {
     padding-top: 5px;
-    background-color: red;
+    margin-bottom: 30px;
+    background-color: rgb(0, 255, 191);
     border: 2px solid;
     width: 100px;
     height: 50px;
     font-size: 15px;
-    margin: 0 20px;
-    position: absolute;
-    top: 150px;
-    left:750px;   
+    
+  
 }
 
 .inspire-button:hover {
   background-color: bisque;
-  color:red;
+  color:rgb(255, 0, 98);
 }
 
-#protein-result {
+#veg-result, #carb-result, #protein-result {
   font-size: 30px;
-  margin: 0 20px;
-  position: absolute;
-  top: 230px;
-  left:750px;  
 }
-#carb-result {
-  font-size: 30px;
-  margin: 0 20px;
-  position: absolute;
-  top: 260px;
-  left:750px;  
-}
-#veg-result {
-  font-size: 30px;
-  margin: 0 20px;
-  position: absolute;
-  top: 290px;
-  left:750px;  
+
+#button-and-results {
+  padding-top: 300px;
+  padding-left: 60px;
+
 }
