@@ -66,7 +66,7 @@ function generateMeal() {
         {
             name:"Roast cod",
             type:"meat",
-            image:"url('./assets/images/roast-cod.jpg')",
+            image:"url('./assets/images/cod-two.jpg')",
         },
         {
             name:"Roast chicken",

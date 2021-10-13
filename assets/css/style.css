@@ -14,8 +14,7 @@ body {
   position: absolute;
   top: 0;
   left:300px;
-
-  }
+}
 
   #protein-portion {
       width: 300px;
@@ -28,7 +27,7 @@ body {
       position: absolute;
       top: 0;
       left:600px;
-    }
+  }
   
     #carb-portion {
       width: 300px;
@@ -47,15 +46,15 @@ body {
       position:relative;
       top:-70px;
       left:350px;
+      background-color: red;
     }
 
-    #menu {
+  #menu {
       font-size: 150%;
       letter-spacing: 4px;
       position: absolute;
       top: 23px;
       right:0;
-
   }
   
   #menu li {
@@ -84,9 +83,6 @@ body {
   position: absolute;
   top: 10px;
   left:40px;
-
-
-
 }
 
 .inspire-button {
@@ -97,7 +93,6 @@ body {
     width: 100px;
     height: 50px;
     font-size: 15px;
-    
 }
 
 .inspire-button:hover {
@@ -112,14 +107,19 @@ body {
 #button-and-results {
   padding-top: 50px;
   padding-left: 30px;
-
-
 }
-
 
 .form-section {
   padding-top: 110px;
   padding-left:30px;
   margin-top: 30px;
-  
+}
+
+@media screen and (max-width: 800px) {
+  #plate-area {
+    top:400px;
+    left:-270px;
+    background-color: red;
+    position: relative;
+  }
 }
