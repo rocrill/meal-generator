@@ -5,6 +5,7 @@ function generateMeal() {
         {
             name:"Fried rice",
             image:"url('./assets/images/fried-rice.jpg')",
+            type:"grain",
         },
         {
             name:"Mashed potatoes",
@@ -13,10 +14,12 @@ function generateMeal() {
         {
             name:"2 slices of sourdough bread",
             image:"url('./assets/images/2-slices-sourdough.jpg')",
+            type:"grain",
         },
         {
             name:"Portion of penne pasta with pesto",
             image:"url('./assets/images/portion-of-penne.jpg')",
+            type:"grain",
         },
         {
             name:"Sweet potato fries",
@@ -116,8 +119,12 @@ function generateMeal() {
        
         do {
             proteinSelection = getRandomInt(0, protein.length);
-        } while (protein[proteinSelection].type == "legume");
+        } while (protein[proteinSelection].type == "legume"||
+                protein[proteinSelection].type == "dairy");
         
+        do {
+            carbSelection = getRandomInt(0, carb.length);
+        } while (carb[carbSelection].type == "grain");
     }
 
     document.getElementById("carb-portion").style.backgroundImage = carb[carbSelection].image;
