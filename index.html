@@ -31,6 +31,33 @@
         </nav>
     </header>
 
+  <!--sign up form--> 
+
+     <section class="form-section">
+         <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/"></form>
+       <h2>1. Submit your basic info and dietary requirements</h2>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="first_name" required>
+        <label for="lname">Last Name</label>
+        <input class="lname" name="last_name" type="text" id="lname" required>
+        <label for="email">Email Address</label>
+        <input  type="email" class="email" name="email_address" id="email" required>
+       <br>
+       <br>
+       Dietary Requirements:
+       <br>
+       <br>
+        <label for="vegetarian">Vegetarian</label>
+        <input type="radio" name="diet" id="vegetarian" value="vegetarian" required>
+        <label for="vegan">Vegan</label>
+        <input type="radio" name="diet" id="vegan" value="vegan" required>
+        <label for="both">Paleo</label>
+        <input type="radio" name="diet" id="paleo" value="paleo" required>
+        <input class="submit-button" type="submit" value="Submit">
+        
+     </section>
+  
+
     <div id="plate-area">
         <div id="veg-portion"></div>
         <div id="protein-portion"></div>
@@ -38,6 +65,7 @@
     </div>
 
     <div id="button-and-results">
+        <h2>2. Get inspired:</h2>
         <button type="button" class="inspire-button" onclick="generateMeal()";>
         Inspire me!</button>
         <div id="carb-result">
