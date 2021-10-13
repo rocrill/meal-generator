@@ -1,8 +1,6 @@
 function generateMeal() {
     
-    document.getElementById("veg-portion").style.backgroundImage = "url('./assets/images/roastbroc.png')";
-    document.getElementById("carb-portion").style.backgroundImage = "url('./assets/images/rice.png')";
-    
+
     let carb = [
         {
             name:"Fried rice",
@@ -96,6 +94,14 @@ function generateMeal() {
 
     let proteinSelection = getRandomInt(0, protein.length)
 
+    if (document.getElementById("vegetarian-diet").checked) {
+       
+        do {
+            proteinSelection = getRandomInt(0, protein.length);
+        } while (protein[proteinSelection].type == "meat");
+        
+    }
+
     document.getElementById("carb-portion").style.backgroundImage = carb[carbSelection].image;
     document.getElementById("veg-portion").style.backgroundImage = veg[vegSelection].image;
     document.getElementById("protein-portion").style.backgroundImage = protein[proteinSelection].image;
@@ -104,7 +110,11 @@ function generateMeal() {
     document.getElementById("protein-result").innerHTML = protein[proteinSelection].name;
     document.getElementById("veg-result").innerHTML = veg[vegSelection].name;
 
+      
+   
 }
+
+
 
 
 function getRandomInt(min, max) {
