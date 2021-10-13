@@ -102,6 +102,24 @@ function generateMeal() {
         
     }
 
+    if (document.getElementById("vegan-diet").checked) {
+       
+        do {
+            proteinSelection = getRandomInt(0, protein.length);
+        } while (protein[proteinSelection].type == "meat"|| 
+            protein[proteinSelection].type == "egg"||
+            protein[proteinSelection].type == "dairy");
+        
+    }
+
+    if (document.getElementById("paleo-diet").checked) {
+       
+        do {
+            proteinSelection = getRandomInt(0, protein.length);
+        } while (protein[proteinSelection].type == "legume");
+        
+    }
+
     document.getElementById("carb-portion").style.backgroundImage = carb[carbSelection].image;
     document.getElementById("veg-portion").style.backgroundImage = veg[vegSelection].image;
     document.getElementById("protein-portion").style.backgroundImage = protein[proteinSelection].image;
