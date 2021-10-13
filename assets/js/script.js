@@ -54,21 +54,44 @@ function generateMeal() {
     let protein = [
         {
             name:"Pan-fried salmon",
+            type:"meat",
             image:"url('./assets/images/pan-fried-salmon.jpg')",
         },
         {
             name:"Pan-seared steak",
+            type:"meat",
             image:"url('./assets/images/pan-seared-steak.jpg')",
         },
         {
             name:"Roast cod",
+            type:"meat",
             image:"url('./assets/images/roast-cod.jpg')",
         },
         {
             name:"Roast chicken",
+            type:"meat",
             image:"url('./assets/images/roast-chicken.jpg')",
+        },   
+        {
+            name:"Curried chickpeas",
+            type:"legume",
+            image:"url('./assets/images/curried-chickpeas.jpg')",
         },
-        
+        {
+            name:"Grilled halloumi",
+            type:"dairy",
+            image:"url('./assets/images/grilled-halloumi.jpg')",
+        },
+        {    
+            name:"Spinach omelette",
+            type:"egg",
+            image:"url('./assets/images/spinach-omelette.jpg')",
+        },
+        {    
+            name:"Mapo tofu",
+            type:"legume",
+            image:"url('./assets/images/mapo-tofu.jpg')",
+        },
     ];
 
     let proteinSelection = getRandomInt(0, protein.length)
