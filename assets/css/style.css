@@ -1,7 +1,8 @@
 
 body {
   font-family: Quattrocento, sans-serif;
-  color:black;
+  color:#424B54;
+  background-color: #D5ACA9;
 
 }
 
@@ -91,18 +92,17 @@ body {
 .inspire-button {
     padding-top: 5px;
     margin-bottom: 30px;
-    background-color: rgb(0, 255, 191);
-    border: 2px solid;
+    background-color: bisque;
+    border: 1px solid;
     width: 100px;
     height: 50px;
     font-size: 15px;
     
-  
 }
 
 .inspire-button:hover {
-  background-color: bisque;
-  color:rgb(255, 0, 98);
+  background-color: #EBCFB2;
+  color:#424B54;
 }
 
 #veg-result, #carb-result, #protein-result {
