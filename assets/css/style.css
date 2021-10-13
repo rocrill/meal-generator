@@ -44,7 +44,7 @@ body {
     
     #plate-area {
       position:relative;
-      top:150px;
+      top:-70px;
       left:350px;
     }
 
@@ -84,6 +84,8 @@ body {
   top: 10px;
   left:40px;
 
+
+
 }
 
 .inspire-button {
@@ -108,13 +110,15 @@ body {
 }
 
 #button-and-results {
-  padding-top: 300px;
-  padding-left: 60px;
+  padding-top: 50px;
+  padding-left: 30px;
+
 
 }
 
 .form-section {
-  padding-top: 90px;
+  padding-top: 110px;
   padding-left:30px;
   margin-top: 30px;
+  
 }
