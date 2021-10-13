@@ -106,7 +106,7 @@ body {
 }
 
 #veg-result, #carb-result, #protein-result {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #button-and-results {
@@ -115,6 +115,7 @@ body {
 
 
 }
+
 
 .form-section {
   padding-top: 110px;

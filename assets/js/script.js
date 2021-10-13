@@ -131,9 +131,9 @@ function generateMeal() {
     document.getElementById("veg-portion").style.backgroundImage = veg[vegSelection].image;
     document.getElementById("protein-portion").style.backgroundImage = protein[proteinSelection].image;
 
-    document.getElementById("carb-result").innerHTML = carb[carbSelection].name;
-    document.getElementById("protein-result").innerHTML = protein[proteinSelection].name;
-    document.getElementById("veg-result").innerHTML = veg[vegSelection].name;
+    document.getElementById("carb-result").innerHTML = `Carbohydrate:&nbsp ${carb[carbSelection].name}`;
+    document.getElementById("protein-result").innerHTML = `Protein:&nbsp ${protein[proteinSelection].name}`;
+    document.getElementById("veg-result").innerHTML = `Vegetables:&nbsp ${veg[vegSelection].name}`;
 
       
    
