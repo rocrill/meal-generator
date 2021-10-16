@@ -1,4 +1,8 @@
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: Quattrocento, sans-serif;
   color:#424B54;
