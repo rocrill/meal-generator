@@ -21,7 +21,7 @@
       score = score+1;
     }
 
-  let scorePercent = (score/6)*100;
+  let scorePercent = Math.round((score/6)*100);
 
   document.getElementById("quiz-result").innerHTML = "Result:"+ scorePercent + "%";
   
