@@ -20,7 +20,14 @@
     if (document.getElementById("q6b").checked) {
       score = score+1;
     }
-  
 
-  document.getElementById("quiz-result").innerHTML = "Result:"+ (score/6)*100 + "%";
-  }
+  let scorePercent = (score/6)*100;
+
+  document.getElementById("quiz-result").innerHTML = "Result:"+ scorePercent + "%";
+  
+ if (scorePercent<30) {
+   document.getElementById("result-message").innerHTML = "Wow, you got " + scorePercent + "... you could really use our meal generator!";
+ }
+}
+
+ 
