@@ -18,13 +18,48 @@
     <h1>Nutrition quiz</h1>
     <h2>How much do you know about nutrition?</h2>
 
-   <div id="question-area">
+   <div id="question-one">
 
+    Q1. "Which one of the following would be considered a protein?"
+    <br>
+    <br>
+    <label for="q1a">Potato</label>
+    <input type="radio" id="q1a" required>
+    <label for="q1b">Fish</label>
+    <input type="radio" id="q1b" required>
+    <label for="q1c">Apple</label>
+    <input type="radio" id="q1c" required>
+    <label for="q1d">Broccoli</label>
+    <input type="radio" id="q1d" required>
    </div> 
 
-   <div id="results-area">
+   <div id="question-two">
 
+    Q1. "What is the recommended serving size of carb per meal?"
+    <br>
+    <br>
+    <label for="q2a">a fist size</label>
+    <input type="radio" id="q2a" required>
+    <label for="q2b">a finger size</label>
+    <input type="radio" id="q2b" required>
+    <label for="q2c">1/2 of a standard dinner plate</label>
+    <input type="radio" id="q2c" required>
+    <label for="q2d">3/4 of a standard dinner plate</label>
+    <input type="radio" id="q2d" required>
+   </div> 
+
+
+
+   <div id="submit-button">
+    <button type="button" class="submit-button-style" onclick="calculateScore()";>
+        Submit</button>
    </div>
 
+   <div id="quiz-result">
+       
+   </div>
+
+
+    <script src="assets/js/quiz.js"></script>
 </body>
 </html>
