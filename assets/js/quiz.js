@@ -50,5 +50,8 @@ function refreshPage() {
   for(let i=0; i < radio.length; i++) {
       radio[i].checked = false;
   }
+
+  document.getElementById("result-message").innerHTML = "";
+  document.getElementById("quiz-result").innerHTML = "";
  
 }
