@@ -190,4 +190,49 @@ font-size: 30px;
   padding-top: 150px;
 }
 
+
+#veg-portion {
+  width: 150px;
+  height: 300px; 
+  border-radius: 150px 0 0 150px;
+  background-image: url('../images/vegetables.jpg');
+  position: absolute;
+  top: 450px;
+  left:-300px;
+}
+
+  #protein-portion {
+      width: 150px;
+      height: 150px;
+      border-radius: 0 150px 0 0;
+      background-image: url('../images/protein.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      position: absolute;
+      top: 450px;
+      left:-150px;
+  }
+  
+    #carb-portion {
+      width: 150px;
+      height: 150px;
+      border-radius: 0 0 150px 0px;
+      background-image: url('../images/carbs.jpg');
+      position: absolute;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      top: 600px;
+      left: -150px;
+    }
+    
+    #plate-area {
+      position:relative;
+      top:-70px;
+      left:350px;
+      background-color: red;
+    }
+
+
 }
