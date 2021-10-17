@@ -1,108 +1,68 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Balanced Meal Generator
 
-Welcome rocrill,
+## Introduction
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Image of Device responsiveness](assets/images/devices.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Balanced meal generator is a website for anyone who is interested in nutrition and looking for some inspiration on what food to prepare.
 
-## Gitpod Reminders
+Users of this website will be able to select their dietary preferences and then generate a range of meal ideas, choosing from a randomised selection of food, while sticking to a nutritionally balanced plate break-down of 50% vegetables, 25% protein and 25% carbohydrate.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+### Project Goals
 
-A blue button should appear to click: _Make Public_,
+* To create a minimalist, well-designed website that allows users to generate meal ideas, and complete a nutrition quiz to test the depth of their nutritional knowledge.
 
-Another blue button should appear to click: _Open Browser_.
+### User Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* To get ideas for what to cook and eat.
+* To learn more about nutrition and healthy portion sizes.
 
-A blue button should appear to click: _Make Public_,
+### Site Owner's Goals
 
-Another blue button should appear to click: _Open Browser_.
+* To create a useful and easy-to-use meal generator tool.
+* To get new webiste visitors.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Target Audience
 
-To log into the Heroku toolbelt CLI:
+* Anyone looking to improve their nutritional knowledge.
+* Anyone lacking inspiration on what to cook.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### User Stories
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* First Time Visitor Goals
 
-------
+  * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about what the balanced meal generator does. 
+  * As a First Time Visitor, I want to be able to easily navigate throughout the site to find the meal generator, and the nutrition quiz.
+ 
+* Returning Visitor Goals
 
-## Release History
+  * As a Returning Visitor, I want to easily access the section of the site where I can contact the company with queries.
+  * As a Returning Visitor, I want to easily access the section of the site where I can generate more meal ideas.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* Frequent User Goals
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+  * As a Frequent User, I want to be able to access the site easily from any device, even if I am on the go.
+  * As a Frequent User, I want to follow the company on their social pages so I am aware of any updates/offers.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* Site Owner Goals
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  * As a site owner, I want to create an attractive and well-designed site that elicits a positive emotional response in users so that they remain on and navigate througout the site to achieve their goals.
+  *  As a site owner, I want to have clear social media links displayed on the site which may lead to an increased following on channels to help with my branding.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Structure:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The site has 2 pages: 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Home page - The 'Home' page contains an eye-catching plate image, which is divided into 3 sections - 50% of vegetable content, 25% of protein content and 25% of carbohydrate content. 
+There user is first invited to select their dietary preference by clicking on the desired radio button. 
+There is then a clear 'Inspire me!' call to action button which generates a new meal idea everytime the user clicks it, sticking to the recommended food group percentages.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Underneath this is a brief explanation of the balanced meal generator and its purpose. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Nutrition quiz -  The 'Nutrition quiz' page gives the user a chance to put their nutritional knowledge to the test, providing some light entertainment which relates to the main feature of the site - the generator.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+For consistency of user experience, the site logo, navigation links and footer remain consitent throughout the site.
+<!--->
