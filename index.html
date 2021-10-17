@@ -16,8 +16,9 @@
 <body>
  
     <header>
-      
-            <h1 id="heading">Balanced Meal Generator</h1>
+
+    <!-- Page heading and navigation bar -->      
+    <h1 id="heading">Balanced Meal Generator</h1>
     
         <nav>
             <ul id="menu">
@@ -31,11 +32,10 @@
         </nav>
     </header>
 
-  <!--dietary requirements form--> 
-
-     <section class="form-section">
+    <!--dietary requirements form--> 
+    <section class="form-section">
     
-       <h2>1. Select your dietary requirements</h2>
+        <h2>1. Select your dietary requirements</h2>
         <br>
         <label for="omnivore">None</label>
         <input type="radio" name="diet" id="omnivore" value="omnivore" required checked>
@@ -46,21 +46,24 @@
         <label for="both">Paleo</label>
         <input type="radio" name="diet" id="paleo-diet" value="paleo" required>
         
-     </section>
-  
-     <div id="plate-area">
+    </section>
+
+    <!-- Plate area displaying generated meals -->
+
+    <div id="plate-area">
         <div id="veg-portion"></div>
         <div id="protein-portion"></div>
         <div id="carb-portion"></div>
     </div>
 
+    <!-- Generate meal button and text results --> 
     <div id="button-and-results">
         <h2>2. Get inspired: &nbsp&nbsp<button type="button" class="inspire-button" onclick="generateMeal()";>
-            Inspire me!</button></h2>
+            Inspire me!</button>
+        </h2>
         
         <div>
             <p id="carb-result">Carbohydrate: 25%</p>
-            
         </div>
         <div>
             <p id="protein-result">Protein: 25%</p>
