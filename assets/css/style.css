@@ -198,7 +198,7 @@ font-size: 30px;
   background-image: url('../images/vegetables.jpg');
   position: absolute;
   top: 450px;
-  left:-300px;
+  left:-270px;
 }
 
   #protein-portion {
@@ -211,7 +211,7 @@ font-size: 30px;
       background-size: cover;
       position: absolute;
       top: 450px;
-      left:-150px;
+      left:-120px;
   }
   
     #carb-portion {
@@ -224,7 +224,7 @@ font-size: 30px;
       background-position: center;
       background-size: cover;
       top: 600px;
-      left: -150px;
+      left: -120px;
     }
     
     #plate-area {
