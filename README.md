@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![Image of Device responsiveness](assets/images/devices.png)
+![Image of Device responsiveness](assets/images/responsiveness-image.png)
 
 Balanced meal generator is a website for anyone who is interested in nutrition and looking for some inspiration on what food to prepare.
 
@@ -177,3 +177,61 @@ Mobile:
 * Add more diet types, e.g. coeliac.
 * Add more options for all food types for better user experience.
 
+## Technologies Used
+
+### Languages:
+
+*  [HTML 5](https://en.wikipedia.org/wiki/HTML5)
+*  [CSS 3](https://en.wikipedia.org/wiki/CSS)
+*  [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Frameworks, libraries and programs used:
+
+* [Balsamiq](https://balsamiq.com/) - to create wireframes for the site as part of the project preparation.
+* [Google Fonts](https://fonts.google.com/) - to import the 'Quattrocento' and 'Sans Serif' fonts into the HTML file, which were then used throughout the site.
+* [Font Awesome](https://fontawesome.com/) - for icons which were added to the footer social media links.
+* [Coolors](https://coolors.co/) - for an appropriate and attractive colour palette.
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - to inspect and debug the code through all stages of the development.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to check the site for performance, accessibility and best practices.
+* [Am I Responsive](http://ami.responsivedesign.is/) - to produce a preview of the site on different devices.
+* [W3C HTML Validator](https://validator.w3.org/#validate_by_input) - to validate HTML code.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate CSS code.
+* [GitHub](https://github.com/) - for hosting the project code and version control.
+* [Gitpod](https://gitpod.io/account) - to write the code and push it to GitHub.
+* [Github Pages](https://pages.github.com/) - to deploy the site.
+* [Unsplash](https://unsplash.com/) - for images.
+* [Pexels](https://www.pexels.com/) - for images.
+
+## Deploying to GitHub Pages
+
+The site was developed in GitPod and deployed to GitHub pages. The steps to deploy are as follows:
+
+* Navigate to the Github repository. For this project, this is rocrill/meal-generator 
+* Navigate to the Settings tab, then to Pages.
+* From the Source secton drop-down menu, select the Master Branch ( or Branch: Master and Root folder). Save.
+* Once the master branch has been selected, you will see the message: 'Your site is published' and a link to the deployed site will be provided.
+
+The live link can be found here - https://rocrill.github.io/meal-generator/
+
+## Forking to GitHub Repository
+
+You can create a fork (copy) of the repository. This allows you to experiment with the code without affecting the original project.
+
+To fork the repository:
+
+1. Log in to your GitHub account.
+2. On GitHub, navigate to the repository you want to fork.
+3. In the top right corner of the page, underneath your profile avatar, click Fork.
+4. You should now have a copy of the original repository in your GitHub account.
+
+## Making a local clone:
+
+You can clone your repository to create a local copy on your computer. Any changes made to the local copy will not affect the original project. To clone the Meal Generator project, follow the steps below:
+
+1. Log in to your GitHub account and locate the Meal Generator repository.
+2. In the repository, click on Code button located above all the project files.
+3. Under HTTPS, copy the link generated - https://github.com/rocrill/meal-generator.git.
+4. Open the terminal you are using, e.g. Gitpod.
+5. Change the current working directory to the location where you want the cloned directory created.
+6. Type git clone and then paste the URL you copied earlier: `git clone https://github.com/rocrill/meal-generator.git`.
+8. Press Enter to create your local clone.
