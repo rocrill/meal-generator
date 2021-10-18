@@ -244,3 +244,25 @@ When I was editing for responsiveness I tested the site on several different dev
 
 At the final stages of the project the W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
 
+
+### Validator Testing 
+
+- HTML
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Frocrill.github.io%2Fmeal-generator%2F
+- CSS
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frocrill.github.io%2Fmeal-generator%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- JavaScript
+ - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+    - The following metrics were returned:
+    -In quiz.js:
+      -There are 2 functions in this file.
+      -Function with the largest signature take 0 arguments, while the median is 0.
+      -Largest function has 23 statements in it, while the median is 14.
+      -The most complex function has a cyclomatic complexity value of 11 while the median is 6.5.  
+    -In script.js:
+      -There are 2 functions in this file.
+      -Function with the largest signature take 2 arguments, while the median is 1.
+      -Largest function has 23 statements in it, while the median is 13.
+      -The most complex function has a cyclomatic complexity value of 11 while the median is 6.  
+
+
