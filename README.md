@@ -235,3 +235,12 @@ You can clone your repository to create a local copy on your computer. Any chang
 5. Change the current working directory to the location where you want the cloned directory created.
 6. Type git clone and then paste the URL you copied earlier: `git clone https://github.com/rocrill/meal-generator.git`.
 8. Press Enter to create your local clone.
+
+# Testing
+
+I tested the site regularly during the development process, by previewing it in the live server window and inspecting with Google Chrome DevTools at various stages.
+
+When I was editing for responsiveness I tested the site on several different devices.
+
+At the final stages of the project the W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
+
