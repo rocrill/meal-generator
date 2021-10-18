@@ -249,6 +249,7 @@ I also tested the site on the following browsers:
 -Firefox
 -Google Chrome
 -Microsoft Edge
+-Safari
 
 At the final stages of the project the W3C Markup Validator and W3C CSS Validator and JShint Services were used to validate every page of the project to ensure there were no syntax errors.
 
@@ -304,21 +305,21 @@ The Code Institute LMS content, including the Love Running project, as well as s
 
 ## Images
 
-Images were sourced from Unsplash and Pexels.
+Images were sourced from Unsplash, Pexels and Pixabay.
 
-Hero image by Mike Erskine on [Unsplash](https://unsplash.com/photos/NqeB4q6KOFg)
+Spinach image by Ponce Photogrpahy on [Pixabay](https://pixabay.com/photos/spinach-healthy-green-dieting-1427360/)
 
-Double room image by Max Vakhtbovych on [Pexels](https://www.pexels.com/photo/classy-bedroom-with-soft-bed-and-white-furniture-7166560/)
+Peppers image by Kareni on [Pixabay](https://pixabay.com/photos/fire-embers-blind-cob-barbecue-2697189/)
 
-King room image by NeONBRAND on [Unsplash](https://unsplash.com/photos/ZqqwJA71Ke4)
+Mashed potatoes image by 422737 on [Pixabay](https://pixabay.com/photos/mashed-potatoes-potatoes-meal-food-439984/)
 
-Sunflower field image by Bonnie Kittle on [Unsplash](https://unsplash.com/photos/vxTpVxYCZjA)
+Roast chicken image by RitaE on [Pixabay](https://pixabay.com/photos/chicken-roast-chicken-4110208/)
 
-Mountain image by K. Mitch Hodge on [Unsplash](https://unsplash.com/photos/pyKlWqt6PY0)
+Salmon image by cattalin on [Pixabay](https://pixabay.com/photos/salmon-fish-seafood-veggies-salad-518032/)
 
-Portstewart Strand image by Catherin Auld on [Unsplash](https://unsplash.com/photos/7H7COlMWZwI)
+Steak image by Divily on [Pixabay](https://pixabay.com/photos/steak-flesh-schnitzel-chop-grill-2936531/)
 
-Contact page image by Timothy Eberly on [Unsplash](https://unsplash.com/photos/oIFAIo6f2qA)
+
 
 # Acknowledgements
 
