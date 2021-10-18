@@ -147,7 +147,7 @@ body {
 }
 
 .social-networks {
-  text-align: center;
+  text-align: left;
 }
 
 .social-networks > li {
@@ -157,7 +157,7 @@ body {
 .social-networks i {
   font-size: 160%;
   margin: 1%;
-  padding: 5%;
+  padding: 1%;
   color: #424B54;
 }
 
