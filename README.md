@@ -65,4 +65,58 @@ Underneath this is a brief explanation of the balanced meal generator and its pu
 Nutrition quiz -  The 'Nutrition quiz' page gives the user a chance to put their nutritional knowledge to the test, providing some light entertainment which relates to the main feature of the site - the generator.
 
 For consistency of user experience, the site logo, navigation links and footer remain consitent throughout the site.
-<!--->
+
+### Wireframes:
+
+Mock-ups were made using Balsamiq to help plan and visualise the site design. They were created for 3 main screen sizes: mobile, tablet and desktop.
+
+- [Wireframes](docs/MS2-home-desktop.pdf): 'Home' page desktop.
+- [Wireframes](docs/MS2-quiz-desktop.pdf): 'Nutrition Quiz' page desktop.
+- [Wireframes](docs/MS2-home-mobile.pdf): 'Home' page mobile.
+- [Wireframes](docs/MS2-quiz-mobile.pdf): 'Nutrition Quiz' mobile.
+
+### Design:
+
+* Colour Scheme:
+
+  The colour palette includes calm and complimenting colours. The palette was chosen using the [Coolors](https://coolors.co/) colour generator website.
+
+  ![Image of Color Palette](assets/images/ms2-color-palette.png)
+
+  The colours mainly used were:
+
+  Charcoal: #424B54
+
+  English Lavender: #B38D97
+
+  Pastel Pink: #D5ACA9
+
+  Peach Puff: #EBCFB2
+
+  Pale Silver: #C5BAAF
+
+  Some slightly different shades of similar colors were also used in different parts of the site to achieve the best possible contrast for user experience.
+
+* Typography:
+
+  'Quattrocento', taken from Google Fonts, is the main font used throughout the website with 'Sans Serif' as the fallback font. It is clear and neat.
+
+* Imagery:
+
+  All images were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
+
+  The main feature of the home page is the meal generator plate which comprises of three sepoarate images for the different food groups. This is set to images which represent each food group when the user first arrives on the page, and these are then replaced with new images according to the plate section each time the user clicks to generate new meal inspiration. 
+
+  ## Features
+
+### Existing Features:
+
+* Navigation
+
+  * Horizontally aligned navigation bar with 2 navigation links exists on both pages.
+
+  * Navigation bar is consistently displayed at the top of the page so users know what to expect and can navigate easily.
+
+  * A border appears at the bottom of the menu links when they are hovered over.
+
+  * On mobile, the navigation menu links are displayed underneath the page heading, instead of in-line.
