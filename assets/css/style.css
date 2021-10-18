@@ -127,6 +127,10 @@ body {
   padding-top: 130px;
 }
 
+.social-networks {
+  display:inline;
+}
+
 /*
 #result-and-message {
   font-size: 20px;
@@ -142,6 +146,8 @@ body {
   
 }
 */
+
+/* Mobile media query */
 
 @media screen and (max-width: 800px) {
   #menu {
