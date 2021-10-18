@@ -265,4 +265,40 @@ At the final stages of the project the W3C Markup Validator and W3C CSS Validato
       -Largest function has 23 statements in it, while the median is 13.
       -The most complex function has a cyclomatic complexity value of 11 while the median is 6.  
 
+### Unfixed Bugs
 
+Mobile nav alignment?
+
+# Credits
+
+## Code
+
+The Code Institute LMS content, including the Love Running project, as well as some posts on Stackoverflow were used to create this site. All code taken from these resources has been adapted to suit the needs of this site, except for the specific cases referenced below.
+
+*The following articles were used to achieve the quarter and semi-circle plate sections shape and positioning for the meal generator.
+
+[Code Grepper](https://www.codegrepper.com/code-examples/css/make+a+quarter+of+circle+css)
+[W3Schools](https://www.w3schools.com/css/css3_borders.asp) 
+[Singhak](https://singhak.in/draw-half-and-quarter-circle-with-css/)
+[Free Code Camp](https://www.freecodecamp.org/news/how-to-use-the-position-property-in-css-to-align-elements-d8f49c403a26/#:~:text=In%20position%3A%20relative%20%2C%20the%20element,corner)%20of%20its%20parent%20element.)
+
+*This [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) article was used to get the math.random function used in the meal generator.
+
+*This [W3Schools](https://www.w3schools.com/jsref/jsref_dowhile.asp) article was used for the 'do while' loop used as part of the generate meal function.
+
+*This [Stack Overflow](https://stackoverflow.com/questions/2554116/how-to-clear-radio-button-in-javascript) article was used when creating the 'refresh' button function which clears all radio buttons and any existing result text.
+
+*This [Free Code Camp](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) article was used when addressing a persistent footer positioning issue.
+
+*This [Stack Overflow](https://stackoverflow.com/questions/9866220/why-are-two-vertical-scrollbars-showing) article resolved a double vertical scroll bar issue on mobile.
+
+*Icons taken from [Font Awesome](https://fontawesome.com/).
+
+
+
+# Acknowledgements
+
+Thank you to:
+
+* My mentor, Gerard McBride, for his help and guidance.
+* The tutors at the Code Institute for their help and support.
