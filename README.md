@@ -240,9 +240,17 @@ You can clone your repository to create a local copy on your computer. Any chang
 
 I tested the site regularly during the development process, by previewing it in the live server window and inspecting with Google Chrome DevTools at various stages.
 
-When I was editing for responsiveness I tested the site on several different devices.
+When I was editing for responsiveness I tested the site on all devices available to me:
+-Huawei Y6 2019
+-Iphone 6S
+-Macbook Pro
 
-At the final stages of the project the W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
+I also tested the site on the following browsers:
+-Firefox
+-Google Chrome
+-Microsoft Edge
+
+At the final stages of the project the W3C Markup Validator and W3C CSS Validator and JShint Services were used to validate every page of the project to ensure there were no syntax errors.
 
 
 ### Validator Testing 
@@ -294,7 +302,23 @@ The Code Institute LMS content, including the Love Running project, as well as s
 
 *Icons taken from [Font Awesome](https://fontawesome.com/).
 
+## Images
 
+Images were sourced from Unsplash and Pexels.
+
+Hero image by Mike Erskine on [Unsplash](https://unsplash.com/photos/NqeB4q6KOFg)
+
+Double room image by Max Vakhtbovych on [Pexels](https://www.pexels.com/photo/classy-bedroom-with-soft-bed-and-white-furniture-7166560/)
+
+King room image by NeONBRAND on [Unsplash](https://unsplash.com/photos/ZqqwJA71Ke4)
+
+Sunflower field image by Bonnie Kittle on [Unsplash](https://unsplash.com/photos/vxTpVxYCZjA)
+
+Mountain image by K. Mitch Hodge on [Unsplash](https://unsplash.com/photos/pyKlWqt6PY0)
+
+Portstewart Strand image by Catherin Auld on [Unsplash](https://unsplash.com/photos/7H7COlMWZwI)
+
+Contact page image by Timothy Eberly on [Unsplash](https://unsplash.com/photos/oIFAIo6f2qA)
 
 # Acknowledgements
 
