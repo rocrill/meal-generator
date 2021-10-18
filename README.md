@@ -29,29 +29,6 @@ Users of this website will be able to select their dietary preferences and then 
 * Anyone looking to improve their nutritional knowledge.
 * Anyone lacking inspiration on what to cook.
 
-### User Stories
-
-* First Time Visitor Goals
-
-  * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about what the balanced meal generator does. 
-  * As a First Time Visitor, I want to be able to easily navigate throughout the site to find the meal generator, and the nutrition quiz.
- 
-* Returning Visitor Goals
-
-  * As a Returning Visitor, I want to easily access the section of the site where I can contact the company with queries.
-  * As a Returning Visitor, I want to easily access the section of the site where I can generate more meal ideas.
-
-
-* Frequent User Goals
-
-  * As a Frequent User, I want to be able to access the site easily from any device, even if I am on the go.
-  * As a Frequent User, I want to follow the company on their social pages so I am aware of any updates/offers.
-
-* Site Owner Goals
-
-  * As a site owner, I want to create an attractive and well-designed site that elicits a positive emotional response in users so that they remain on and navigate througout the site to achieve their goals.
-  *  As a site owner, I want to have clear social media links displayed on the site which may lead to an increased following on channels to help with my branding.
-
 ### Structure:
 
 The site has 2 pages: 
@@ -111,12 +88,92 @@ Mock-ups were made using Balsamiq to help plan and visualise the site design. Th
 
 ### Existing Features:
 
-* Navigation
+* Heading and Navigation
 
   * Horizontally aligned navigation bar with 2 navigation links exists on both pages.
 
   * Navigation bar is consistently displayed at the top of the page so users know what to expect and can navigate easily.
 
-  * A border appears at the bottom of the menu links when they are hovered over.
-
   * On mobile, the navigation menu links are displayed underneath the page heading, instead of in-line.
+
+  * The heading is featured clearly at the top of the page.
+
+Desktop:
+
+  ![Image of desktop menu](assets/images/desktop-nav.png)
+
+Mobile:
+
+  ![Image of mobile menu](assets/images/mobile-nav.png)
+
+* Dietary Requirements section
+
+  * On the home page, the user is initially directed to the first step of generating their meal - selecting their dietary requirements. The diet options are provided as a list of radio buttons. Depending on what diet the user selects, the meal generator plate will only return results that are appropriate for that diet. 
+
+
+  Desktop:
+
+  ![Image of desktop dietary requirements section](assets/images/diet-desktop.png)
+
+  Mobile: 
+
+  ![Image of mobile dietary requirements section](assets/images/diet-mobile.png)
+
+* Meal generator
+
+  * Once the user has selected their diet of choice, they are invited to click the 'inspire me!' button which will generate a meal idea in line with their diet, and displayed as 50% of the plate for the vegetable portion, and 25% each for the protein and carbohydrate portions. Each time the user clicks the button, a new meal idea will be returned by randomly selecting a dish from the website's selection for each category.
+
+  Desktop - 'Inspire me!' button:
+
+  ![Image of 'Inspire me!' button](assets/images/inspire-button.png)
+
+  Desktop - Home page meal plate image:
+
+  ![Image of home page meal plate](assets/images/home-plate-image.png)
+
+  Desktop - Home page generated meal plate image:
+
+  ![Image of generated meal plate](assets/images/generated-plate-image.png)
+
+  Mobile - Home page generated meal plate image:
+
+  ![Image of mobile generated meal plate](assets/images/mobile-generated-plate.png)
+
+* Nutrition Quiz
+
+  * The second page of the site has a nutrition quiz which is offered as some light entertainment for the user, and to share some interesting nutrition facts which the user may not have been aware of. This is a multiple choice quiz in which the user is given four answer options per question. At the end of the quiz they click the submit button which calculates and returns their quiz score.
+  * Depending on the user's quiz score, a percentage result and accompanying message is generated. For the lower-end scores (0 - 29%), the message suggests that the user may benefit from using the balance meal generator; for 30 - 59%, the user is given kudos for their respectable level of nutritional knowldege but may still benefit from the meal generator. For scores between 60 - 89%, the user receives a congratulations; and for scores from 90% and above, users are compared to a qualified nutritionist.
+  * Beside the 'submit' button is a refresh button which clears all of the checked radio buttons on the page as well as the result and message, if there is one displayed at that time.
+
+  Desktop - Nutrition quiz:
+
+  ![Desktop - Image of nutrition quiz](assets/images/desktop-nutrition-quiz.png)
+
+  Desktop - nutrition quiz and result message, example 1:
+
+  ![Desktop - Image of nutrition quiz result and result message](assets/images/desktop-result-message.png)
+
+  Desktop - nutrition quiz and result message, example 2:
+
+  ![Desktop - Image of nutrition quiz result and result message 2](assets/images/desktop-result-message-eg2.png)
+
+  Desktop - refresh button:
+
+  ![Desktop - Image of refresh button](assets/images/desktop-refresh-button.png)
+
+  Mobile - Image of nutrition quiz
+
+  ![Mobile - Image of nutrition quiz](assets/images/mobile-nutrition-quiz.png)
+
+  Mobile - nutrition quiz and result message, example 2:
+
+  ![Desktop - Image of nutrition quiz result and result message](assets/images/mobile-result-and-message.png)
+  
+
+### Features To be Implemented in Future:
+
+* Add calorie addition to the function
+* Create feauter for users to add their own dishes/food types.
+* Add more diet types, e.g. coeliac.
+* Add more options for all food types for better user experience.
+
