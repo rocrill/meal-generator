@@ -45,7 +45,6 @@ function calculateScore() {
   } else {
     document.getElementById("result-message").innerHTML = `Wow ${fName}, you got ${scorePercent}%! ... you could probably use our meal generator!`;
     document.getElementById("result-image").style.backgroundImage = "url('./assets/images/bad-score.png')";
-    document.getElementById("result-image").style.backgroundColor = 'beige';
     document.getElementById("result-and-message-container").style.display= "block";  
   }
 }

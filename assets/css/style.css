@@ -199,8 +199,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   float:left;
-  
-   
+
 }
 
 /* Mobile media query */
@@ -346,17 +345,22 @@ left:15px;
 #result-and-message-container{
   
 position:relative;
+left:auto;
+top:auto;
+width:350px;
+
 }
 
 #result-and-message {
 
-width: 200px;
-height:400px;
+width: 350px;
+height:200px;
 }
 
-#result-image {
-  
-width:200px;
-height:400px;
+#result-image { 
+width:350px;
+height:200px;
+margin-left: 80px;
+margin-bottom:10px;
 }
 }
