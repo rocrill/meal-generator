@@ -306,13 +306,21 @@ At the final stages of the project the W3C Markup Validator and W3C CSS Validato
 
 The Lighthouse report from Google Chrome DevTools showed very good results for Performance, Accessibility, SEO and best practices of the site. 
 
-Home page - mobile ![Image for Home lighthouse result](assets/images/lighthouse-final-mobile.png)
+Home page - mobile 
 
-Home page - desktop ![Image for Home lighthouse result](assets/images/lighthouse-final-desktop.png)
+![Image for Home lighthouse result](assets/images/lighthouse-final-mobile.png)
 
-Nutrition quiz - mobile ![Image for Home lighthouse result](assets/images/lighthouse-mobile-quiz.png)
+Home page - desktop 
 
-Nutrition quiz - desktop ![Image for Home lighthouse result](assets/images/lighthouse-desktop-quiz.png)
+![Image for Home lighthouse result](assets/images/lighthouse-final-desktop.png)
+
+Nutrition quiz - mobile 
+
+![Image for Home lighthouse result](assets/images/lighthouse-mobile-quiz.png)
+
+Nutrition quiz - desktop 
+
+![Image for Home lighthouse result](assets/images/lighthouse-desktop-quiz.png)
 
 ## Bugs
 
@@ -331,26 +339,26 @@ Nutrition quiz - desktop ![Image for Home lighthouse result](assets/images/light
 
 ## Code
 
-The Code Institute LMS content, including the Love Running project, as well as some posts on Stackoverflow were used to create this site. All code taken from these resources has been adapted to suit the needs of this site, except for the specific cases referenced below.
+The Code Institute LMS content, as well as some posts on Stackoverflow were used to create this site. All code taken from these resources has been adapted to suit the needs of this site, except for the specific cases referenced below.
 
-*The following articles were used to achieve the quarter and semi-circle plate sections shape and positioning for the meal generator.
+* The following articles were used to achieve the quarter and semi-circle plate sections shape and positioning for the meal generator.
 
 [Code Grepper](https://www.codegrepper.com/code-examples/css/make+a+quarter+of+circle+css)
 [W3Schools](https://www.w3schools.com/css/css3_borders.asp) 
 [Singhak](https://singhak.in/draw-half-and-quarter-circle-with-css/)
 [Free Code Camp](https://www.freecodecamp.org/news/how-to-use-the-position-property-in-css-to-align-elements-d8f49c403a26/#:~:text=In%20position%3A%20relative%20%2C%20the%20element,corner)%20of%20its%20parent%20element.)
 
-*This [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) article was used to get the math.random function used in the meal generator.
+* This [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) article was used to get the math.random function used in the meal generator.
 
-*This [W3Schools](https://www.w3schools.com/jsref/jsref_dowhile.asp) article was used for the 'do while' loop used as part of the generate meal function.
+* This [W3Schools](https://www.w3schools.com/jsref/jsref_dowhile.asp) article was used for the 'do while' loop used as part of the generate meal function.
 
-*This [Stack Overflow](https://stackoverflow.com/questions/2554116/how-to-clear-radio-button-in-javascript) article was used when creating the 'refresh' button function which clears all radio buttons and any existing result text.
+* This [Stack Overflow](https://stackoverflow.com/questions/2554116/how-to-clear-radio-button-in-javascript) article was used when creating the 'refresh' button function which clears all radio buttons and any existing result text.
 
-*This [Free Code Camp](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) article was used when addressing a persistent footer positioning issue.
+* This [Free Code Camp](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) article was used when addressing a persistent footer positioning issue.
 
-*This [Stack Overflow](https://stackoverflow.com/questions/9866220/why-are-two-vertical-scrollbars-showing) article resolved a double vertical scroll bar issue on mobile.
+* This [Stack Overflow](https://stackoverflow.com/questions/9866220/why-are-two-vertical-scrollbars-showing) article resolved a double vertical scroll bar issue on mobile.
 
-*Icons taken from [Font Awesome](https://fontawesome.com/).
+* Icons taken from [Font Awesome](https://fontawesome.com/).
 
 ## Images
 
@@ -368,9 +376,29 @@ Salmon image by cattalin on [Pixabay](https://pixabay.com/photos/salmon-fish-sea
 
 Steak image by Divily on [Pixabay](https://pixabay.com/photos/steak-flesh-schnitzel-chop-grill-2936531/)
 
+Rice image by Kalyani Akella on [Unsplash](https://unsplash.com/photos/vCNLO20cuwY)
 
+Penne image by Ben Lei on [Unsplash]https://unsplash.com/photos/flFd8L7_B3g
 
+Sourdough image by Vicky Ng on [Unsplash]https://unsplash.com/photos/JlwXPO7DStM
 
+Vegetable category image by Chantal Garnier on [Unsplash](https://unsplash.com/photos/910GanwBoew)
+
+Carb category image by congerdesign on [Pixabay](https://pixabay.com/photos/noodles-rice-potatoes-food-pasta-516635/)
+
+Protein category image by Sam Moqadam on [Unsplash](https://unsplash.com/photos/VpOpy6QrDrs)
+
+Broccoli image by auntmasako on [Pixabay](https://pixabay.com/photos/broccoli-green-fresh-vivid-1630519/)
+
+Chickpea image by Clark Douglas on [Unsplash](https://unsplash.com/photos/LvL8u99H0mY)
+
+Halloumi image by Nastasya Day on [Pixabay](https://pixabay.com/photos/cheese-halloumi-fried-grill-milk-6466491/)
+
+Omelette image by mhurton on [Pixabay](https://pixabay.com/photos/omelette-eggs-fork-spinach-food-1071021/)
+
+Nutritionist image by Yaroslav Shuraev on [Pexels](https://www.pexels.com/photo/food-people-woman-coffee-8845668/)
+
+Nutritionist image by Yilmaz Akin on [Unsplash](https://unsplash.com/photos/FPKtCl74Hfs)
 
 # Acknowledgements
 
