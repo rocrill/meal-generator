@@ -172,10 +172,10 @@ Mobile:
 
 ### Features To be Implemented in Future:
 
-* Add calorie addition to the function
-* Create feauter for users to add their own dishes/food types.
+* Add approximate calorie addition to the 'generateMeal' function.
+* Create feature for users to add their own dishes/food types.
 * Add more diet types, e.g. coeliac.
-* Add more options for all food types for better user experience.
+* Add more options for all food categories for better user experience and increased usability.
 
 ## Technologies Used
 
@@ -298,6 +298,18 @@ At the final stages of the project the W3C Markup Validator and W3C CSS Validato
       - Function with the largest signature take 2 arguments, while the median is 1.
       - Largest function has 26 statements in it, while the median is 14.5.
       - The most complex function has a cyclomatic complexity value of 12 while the median is 6.5.
+
+## Lighthouse Testing
+
+The Lighthouse report from Google Chrome DevTools showed very good results for Performance, Accessibility, SEO and best practices of the site. 
+
+Home page - mobile ![Image for Home lighthouse result](assets/images/lighthouse-final-mobile.png)
+
+Home page - desktop ![Image for Home lighthouse result](assets/images/lighthouse-final-desktop.png)
+
+Nutrition quiz - mobile ![Image for Home lighthouse result](assets/images/lighthouse-mobile-quiz.png)
+
+Nutrition quiz - desktop ![Image for Home lighthouse result](assets/images/lighthouse-desktop-quiz.png)
 
 ### Bugs
 
