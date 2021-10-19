@@ -142,12 +142,12 @@ Mobile:
 * Nutrition Quiz
 
   * The second page of the site has a nutrition quiz which is offered as some light entertainment for the user, and to share some interesting nutrition facts which the user may not have been aware of. This is a multiple choice quiz in which the user is given four answer options per question. At the end of the quiz they click the submit button which calculates and returns their quiz score.
-  * Depending on the user's quiz score, a percentage result and accompanying message is generated. For the lower-end scores (0 - 29%), the message suggests that the user may benefit from using the balance meal generator; for 30 - 59%, the user is given kudos for their respectable level of nutritional knowldege but may still benefit from the meal generator. For scores between 60 - 89%, the user receives a congratulations; and for scores from 90% and above, users are compared to a qualified nutritionist.
+  * Depending on the user's quiz score, a percentage result and accompanying message and image are generated. For the lower-end scores (0 - 29%), the message suggests that the user may benefit from using the balance meal generator; for 30 - 59%, the user is given kudos for their respectable level of nutritional knowldege but may still benefit from the meal generator. For scores between 60 - 89%, the user receives a congratulations; and for scores from 90% and above, users are compared to a qualified nutritionist.
   * Beside the 'submit' button is a refresh button which clears all of the checked radio buttons on the page as well as the result and message, if there is one displayed at that time.
 
   Desktop - Nutrition quiz:
 
-  ![Desktop - Image of nutrition quiz](assets/images/desktop-nutrition-quiz.png)
+  ![Desktop - Image of nutrition quiz](assets/images/nutrition-quiz.png)
 
   Desktop - nutrition quiz and result message, example 1:
 
@@ -155,7 +155,7 @@ Mobile:
 
   Desktop - nutrition quiz and result message, example 2:
 
-  ![Desktop - Image of nutrition quiz result and result message 2](assets/images/desktop-result-message-eg2.png)
+  ![Desktop - Image of nutrition quiz result and result message 2](assets/images/desktop-result-message-2.png)
 
   Desktop - refresh button:
 
@@ -163,11 +163,11 @@ Mobile:
 
   Mobile - Image of nutrition quiz
 
-  ![Mobile - Image of nutrition quiz](assets/images/mobile-nutrition-quiz.png)
+  ![Mobile - Image of nutrition quiz](assets/images/mobile-result-message.png)
 
   Mobile - nutrition quiz and result message, example 2:
 
-  ![Desktop - Image of nutrition quiz result and result message](assets/images/mobile-result-and-message.png)
+  ![Desktop - Image of nutrition quiz result and result message](assets/images/mobile-result-message-2.png)
   
 
 ### Features To be Implemented in Future:
@@ -245,7 +245,9 @@ When I was editing for responsiveness I tested the site on all devices available
 -Iphone 6S
 -Macbook Pro
 
-I also tested the site on the following browsers:
+In general I believe that the site looks better on desktop, however the mobile media query used results in a good adaptation of the site to these smaller devices.
+
+I also tested the site on the following browsers. There were no display issues on any of these:
 -Firefox
 -Google Chrome
 -Microsoft Edge
@@ -273,10 +275,18 @@ At the final stages of the project the W3C Markup Validator and W3C CSS Validato
       -Function with the largest signature take 2 arguments, while the median is 1.
       -Largest function has 23 statements in it, while the median is 13.
       -The most complex function has a cyclomatic complexity value of 11 while the median is 6.  
+### Bugs
 
-### Unfixed Bugs
+* Fixed:
+  * Initially it was possible for the user to select multiple radio buttons per question in the nutrition quiz. This was addressed by adding the question input 'name' attributes, e.g. "q1", so that only one q1 radio button could be selected at once. 
+  * Initially, after filling out the nutrition quiz answers and submitting them, it was not possible to clear the buttons without refreshing the site page. This was addressed by creating the 'refreshPage' function.
+  * When the input name field was first added to the nutrition quiz, the result message would appear with extra spaces in cases where no name was input. To address this an 'if' statement was added to the fName variable to add a space to the beginning of user names where they are unput, to avoid extra spaces in cases where no names are input.
+  * When the result image and message div was added to the nutrition quiz, this rectangular block remained on the page after initially appearing as part of a result message. To address this, the style of that div was updated with JavaScript within the 'refreshPage' function so that the display was equals to "none". To ensure that the div then re-appeared when results were given, the div style was updated so that the display equals "block" when results are being returned through the 'calculateScore' function. 
+  * When the nutrition quiz results were first tested, these included non-integers. To address this, the math.round function was used, dividing the user score by the total number of questions, and multiplying the result by 100.
+  
+* Unfixed Bugs:
 
-Mobile nav alignment?
+  * There are no unfixed bugs as such. There are some parts of the site where positioning could be improved, e.g. depending on the quiz result you receive and what device you are viewing on, the result is not entirely symmetrical. 
 
 # Credits
 
@@ -318,6 +328,8 @@ Roast chicken image by RitaE on [Pixabay](https://pixabay.com/photos/chicken-roa
 Salmon image by cattalin on [Pixabay](https://pixabay.com/photos/salmon-fish-seafood-veggies-salad-518032/)
 
 Steak image by Divily on [Pixabay](https://pixabay.com/photos/steak-flesh-schnitzel-chop-grill-2936531/)
+
+
 
 
 
