@@ -4,9 +4,11 @@
 
 ![Image of Device responsiveness](assets/images/responsiveness-image.png)
 
-Balanced meal generator is a website for anyone who is interested in nutrition and looking for some inspiration on what food to prepare.
+Balanced meal generator is a website for anyone who is nutrition-conscious and lacking inspiration on what food to prepare.
 
 Users of this website will be able to select their dietary preferences and then generate a range of meal ideas, choosing from a randomised selection of food, while sticking to a nutritionally balanced plate break-down of 50% vegetables, 25% protein and 25% carbohydrate.
+
+The website also contains a nutrition quiz to provide some light entertainment for the user, whilst promoting nutritional awareness. Depending on the quiz results, the user may also be advised to give the meal generator a go to improve their nutritional health.
 
 ## User Experience (UX)
 
@@ -34,23 +36,23 @@ Users of this website will be able to select their dietary preferences and then 
 The site has 2 pages: 
 
 Home page - The 'Home' page contains an eye-catching plate image, which is divided into 3 sections - 50% of vegetable content, 25% of protein content and 25% of carbohydrate content. 
-There user is first invited to select their dietary preference by clicking on the desired radio button. 
-There is then a clear 'Inspire me!' call to action button which generates a new meal idea everytime the user clicks it, sticking to the recommended food group percentages.
+There user is first invited to select their dietary preference by clicking on the appropriate radio button. 
+There is then a clear 'Inspire me!' call to action button which generates a new meal idea everytime the user clicks it, sticking to the recommended food group percentages. 
 
-Underneath this is a brief explanation of the balanced meal generator and its purpose. 
+Nutrition quiz -  The 'Nutrition quiz' page gives the user a chance to put their nutritional knowledge to the test, providing some light entertainment which relates to the main feature of the site - the meal generator.
 
-Nutrition quiz -  The 'Nutrition quiz' page gives the user a chance to put their nutritional knowledge to the test, providing some light entertainment which relates to the main feature of the site - the generator.
-
-For consistency of user experience, the site logo, navigation links and footer remain consitent throughout the site.
+For consistency of user experience, the site heading, navigation links and footer remain consistent throughout the site.
 
 ### Wireframes:
 
-Mock-ups were made using Balsamiq to help plan and visualise the site design. They were created for 3 main screen sizes: mobile, tablet and desktop.
+Mock-ups were made using Balsamiq to help plan and visualise the site design. They were created for 2 main screen sizes: mobile and desktop.
 
 - [Wireframes](docs/MS2-home-desktop.pdf): 'Home' page desktop.
 - [Wireframes](docs/MS2-quiz-desktop.pdf): 'Nutrition Quiz' page desktop.
 - [Wireframes](docs/MS2-home-mobile.pdf): 'Home' page mobile.
 - [Wireframes](docs/MS2-quiz-mobile.pdf): 'Nutrition Quiz' mobile.
+
+As the site was developed some additional features were added which were not included in the original wireframes, mainly the name input form at the beginning of the nutrition quiz and the image and results div that is displayed as the quiz results are returned. 
 
 ### Design:
 
@@ -80,11 +82,11 @@ Mock-ups were made using Balsamiq to help plan and visualise the site design. Th
 
 * Imagery:
 
-  All images were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
+  All images were sourced from [Pexels](https://www.pexels.com/), [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/).
 
   The main feature of the home page is the meal generator plate which comprises of three sepoarate images for the different food groups. This is set to images which represent each food group when the user first arrives on the page, and these are then replaced with new images according to the plate section each time the user clicks to generate new meal inspiration. 
 
-  ## Features
+## Features
 
 ### Existing Features:
 
@@ -98,18 +100,17 @@ Mock-ups were made using Balsamiq to help plan and visualise the site design. Th
 
   * The heading is featured clearly at the top of the page.
 
-Desktop:
+  Desktop:
 
   ![Image of desktop menu](assets/images/desktop-nav.png)
 
-Mobile:
+  Mobile:
 
   ![Image of mobile menu](assets/images/mobile-nav.png)
 
 * Dietary Requirements section
 
   * On the home page, the user is initially directed to the first step of generating their meal - selecting their dietary requirements. The diet options are provided as a list of radio buttons. Depending on what diet the user selects, the meal generator plate will only return results that are appropriate for that diet. 
-
 
   Desktop:
 
@@ -168,7 +169,7 @@ Mobile:
   Mobile - nutrition quiz and result message, example 2:
 
   ![Desktop - Image of nutrition quiz result and result message](assets/images/mobile-result-message-2.png)
-  
+
 
 ### Features To be Implemented in Future:
 
@@ -201,6 +202,8 @@ Mobile:
 * [Github Pages](https://pages.github.com/) - to deploy the site.
 * [Unsplash](https://unsplash.com/) - for images.
 * [Pexels](https://www.pexels.com/) - for images.
+
+# Deployment
 
 ## Deploying to GitHub Pages
 
@@ -256,7 +259,7 @@ I also tested the site on the following browsers. There were no display issues o
 At the final stages of the project the W3C Markup Validator and W3C CSS Validator and JShint Services were used to validate every page of the project to ensure there were no syntax errors.
 
 
-### Validator Testing 
+## Validator Testing 
 
 * HTML Validator Errors & Warnings:
 
@@ -311,7 +314,7 @@ Nutrition quiz - mobile ![Image for Home lighthouse result](assets/images/lighth
 
 Nutrition quiz - desktop ![Image for Home lighthouse result](assets/images/lighthouse-desktop-quiz.png)
 
-### Bugs
+## Bugs
 
 * Fixed:
   * Initially it was possible for the user to select multiple radio buttons per question in the nutrition quiz. This was addressed by adding the question input 'name' attributes, e.g. "q1", so that only one q1 radio button could be selected at once. 
