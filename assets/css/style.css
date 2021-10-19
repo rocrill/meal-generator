@@ -1,137 +1,16 @@
-
+/** Common/Used throughout site. **/
 html {
   overflow-x: hidden;
 }
 
+/* Overall site font and color stying. */
 body {
   font-family: Quattrocento, sans-serif;
-  color:#424B54;
-  background-color: #D5ACA9;
-  
+  color: #424B54;
+  background-color: #D5ACA9; 
 }
 
-/* */
-#veg-portion {
-  width: 300px;
-  height: 600px; 
-  border-radius: 300px 0 0 300px;
-  background-image: url('../images/vegetables.jpg');
-  position: absolute;
-  top: 0;
-  left:300px;
-}
-
-  #protein-portion {
-      width: 300px;
-      height: 300px;
-      border-radius: 0 300px 0 0;
-      background-image: url('../images/protein.jpg');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      position: absolute;
-      top: 0;
-      left:600px;
-  }
-  
-    #carb-portion {
-      width: 300px;
-      height: 300px;
-      border-radius: 0 0 300px 0px;
-      background-image: url('../images/carbs.jpg');
-      position: absolute;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      top: 300px;
-      left: 600px;
-    }
-    
-    #plate-area {
-      position:relative;
-      top:-70px;
-      left:350px;
-      background-color: red;
-    }
-
-  #menu {
-      font-size: 150%;
-      letter-spacing: 4px;
-      position: absolute;
-      top: 23px;
-      right:0;
-      
-  }
-  
-  #menu li {
-      float: right;
-      list-style-type: none;
-      margin-right: 80px;
-    
-  }
-  
-  #menu a {
-      text-decoration: none;
-      color: inherit;
-  }
-  
-  #menu a:hover {
-      border-bottom: 1px solid #3a3a3a;
-  }
-
-  .active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-#heading {
-  font-size: 250%;
-  letter-spacing: 4px;
-  position: absolute;
-  top: 10px;
-  left:30px;
-}
-
-.inspire-button {
-    padding-top: 5px;
-    margin-bottom: 30px;
-    background-color: bisque;
-    border: 1px solid;
-    width: 100px;
-    height: 50px;
-    font-size: 15px;
-}
-
-.inspire-button:hover {
-  background-color: #EBCFB2;
-  color:#424B54;
-}
-
-#veg-result, #carb-result, #protein-result {
-  font-size: 25px;
-}
-
-#button-and-results {
-  padding-top: 50px;
-  padding-left: 30px;
-}
-
-#input-section {
-  margin-bottom:25px;
-}
-
-.form-section {
-  padding-top: 110px;
-  padding-left:30px;
-  margin-top: 30px;
-  font-size: 20px;
-}
-
-#quiz-area {
-  padding-left:30px;
-  padding-top: 130px;
-}
-
-/* Footer */
+/* Footer style and positioning. */
 
 #page-container {
   position: relative;
@@ -165,200 +44,325 @@ body {
   color: #424B54;
 }
 
-/*Result and message on Quiz page*/
-#result-and-message {
-  font-size: 20px;
-  color: #3a3a3a;
-  text-align:center;
-  height:400px;
-  padding-top: 70px;
-  padding-right:5px;
-  padding-left:5px;
-  
+/** Home/Meal generator page **/
+
+/* Styling and imagery for the vegetable portion of the meal generator plate. */
+#veg-portion {
+  width: 300px;
+  height: 600px; 
+  border-radius: 300px 0 0 300px;
+  background-image: url('../images/vegetables.jpg');
+  position: absolute;
+  top: 0;
+  left: 300px;
 }
 
-#result-and-message-container{
+/* Styling and imagery for the protein portion of the meal generator plate. */
+#protein-portion {
+  width: 300px;
+  height: 300px;
+  border-radius: 0 300px 0 0;
+  background-image: url('../images/protein.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   position: absolute;
-  left:700px;
-  top:200px;
-  font-size: 20px;
-  color: #3a3a3a;
-  text-align:center;
+  top: 0;
+  left: 600px;
+}
+ 
+/* Styling and imagery for the carbohydrate portion of the meal generator plate. */
+#carb-portion {
+  width: 300px;
+  height: 300px;
+  border-radius: 0 0 300px 0px;
+  background-image: url('../images/carbs.jpg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  top: 300px;
+  left: 600px;
+}
+
+/* Styling for meal generator plate area. */
+#plate-area {
+  position: relative;
+  top: -70px;
+  left: 350px;
+  background-color: red;
+}
+
+/* Style and positioning for navigation menu. */
+#menu {
+  font-size: 150%;
+  letter-spacing: 4px;
+  position: absolute;
+  top: 23px;
+  right: 0;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 80px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+/* Heading style and positioning. */
+#heading {
+  font-size: 250%;
+  letter-spacing: 4px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+/* Meal generator 'inspire button' style. */
+.inspire-button {
+  padding-top: 5px;
+  margin-bottom: 30px;
   background-color: bisque;
   border: 1px solid;
-  width:800px;
-  height:400px;
-  display: none;
-  
-  
-}
-#result-image {
-  background-image: url('../images/nutritionist.jpg');
-  width:400px;
-  height: 400px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  float:left;
-
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
 }
 
-/* Mobile media query */
-
-@media screen and (max-width: 800px) {
-  
-  html,body{
-      overflow-x: initial !important;
-  }
-  
-  #menu {
-      font-size: 30px;
-      font-weight: bold;
-      padding-top:30px;
-      clear:left;
-      float: left;
-      margin-left: 0;
-      margin-bottom: 20px;
-      line-height: 25px;
-  }
-
-#heading {
-font-size: 30px;
-letter-spacing: 4px;
-position: absolute;
-top:-20px;
-left:15px;
+.inspire-button:hover {
+  background-color: #EBCFB2;
+  color:#424B54;
 }
 
-#header {
-  position:relative;
+/* Meal generator text result style. */
+#veg-result, #carb-result, #protein-result {
+  font-size: 25px;
 }
 
-#menu {
-  position: absolute;
-  top:30px;
-  left:-40px;
-}
-#menu li {
-    list-style-type: none;
-    margin:0;
-    padding:20px;
-    font-size:20px;
-    
+/* Meal generator button and results area style. */
+#button-and-results {
+  padding-top: 50px;
+  padding-left: 30px;
 }
 
+/** Nutrition Quiz **/
+
+/* Style for name input field at beginning of quiz. */
+#input-section {
+  margin-bottom: 25px;
+}
+
+/* Style for quiz area. */
 .form-section {
-  font-size:15px;
-  padding-top:150px;
-  padding-left:20px;
+  padding-top: 110px;
+  padding-left: 30px;
+  margin-top: 30px;
+  font-size: 20px;
 }
 
 #quiz-area {
-  padding-left:20px;
-  padding-top: 150px;
+  padding-left: 30px;
+  padding-top: 130px;
 }
 
+/* Quiz result and message style and positioning. */
+#result-and-message {
+  font-size: 20px;
+  color: #3a3a3a;
+  text-align:center;
+  height: 400px;
+  padding-top: 70px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
 
-#veg-portion {
-  width: 150px;
-  height: 300px; 
-  border-radius: 150px 0 0 150px;
-  background-image: url('../images/vegetables.jpg');
+#result-and-message-container {
   position: absolute;
-  top: 450px;
-  left:-320px;
+  left: 700px;
+  top: 200px;
+  font-size: 20px;
+  color: #3a3a3a;
+  text-align: center;
+  background-color: bisque;
+  border: 1px solid;
+  width: 800px;
+  height: 400px;
+  display: none;
 }
+
+#result-image {
+  background-image: url('../images/nutritionist.jpg');
+  width: 400px;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+/** Mobile media query **/
+
+@media screen and (max-width: 800px) {
+  html,body {
+    overflow-x: initial !important;
+  }
+
+  /* Media query heading and navigation menu. */
+  #menu {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top:30px;
+    clear: left;
+    float: left;
+    margin-left: 0;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  #heading {
+    font-size: 30px;
+    letter-spacing: 4px;
+    position: absolute;
+    top: -20px;
+    left: 15px;
+  }
+
+  #header {
+    position: relative;
+  }
+
+  #menu {
+    position: absolute;
+    top: 30px;
+    left: -40px;
+  }
+
+  #menu li {
+      list-style-type: none;
+      margin: 0;
+      padding: 20px;
+      font-size: 20px;
+  }
+
+  /* Media query meal generator plate style. */
+  #veg-portion {
+    width: 150px;
+    height: 300px; 
+    border-radius: 150px 0 0 150px;
+    background-image: url('../images/vegetables.jpg');
+    position: absolute;
+    top: 450px;
+    left: -320px;
+  }
 
   #protein-portion {
-      width: 150px;
-      height: 150px;
-      border-radius: 0 150px 0 0;
-      background-image: url('../images/protein.jpg');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      position: absolute;
-      top: 450px;
-      left:-170px;
+    width: 150px;
+    height: 150px;
+    border-radius: 0 150px 0 0;
+    background-image: url('../images/protein.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 450px;
+    left: -170px;
   }
   
-    #carb-portion {
-      width: 150px;
-      height: 150px;
-      border-radius: 0 0 150px 0px;
-      background-image: url('../images/carbs.jpg');
-      position: absolute;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      top: 600px;
-      left: -170px;
-    }
+  #carb-portion {
+    width: 150px;
+    height: 150px;
+    border-radius: 0 0 150px 0px;
+    background-image: url('../images/carbs.jpg');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 600px;
+    left: -170px;
+  }
     
-    #plate-area {
-      position:relative;
-      top:-70px;
-      left:350px;
-      background-color: red;
-    }
+  #plate-area {
+    position: relative;
+    top: -70px;
+    left: 350px;
+    background-color: red;
+  }
 
-/* mobile media query footer */
-
-    #page-container {
-      position: relative;
-      min-height: 170vh;
-    }
-    
-    #content-wrap {
-      padding-bottom: 2.5rem;   
-    }
-    
-    #footer {
-      position: absolute;
-      display: inline;
-      bottom: 0;
-      width: 100%;
-      height: 2.5rem; 
-    }
-
-    .social-networks {
-      text-align: center;
-      padding:0;
-    }
-    
-    .social-networks > li {
-      display: inline;
-    }
-    
-    .social-networks i {
-      font-size: 160%;
-      margin: 1%;
-      padding: 8%;
-      padding-right: 20px;
-      color: #424B54;
-    }
-
-
-/* Mobile media query for quiz results */
-
-#result-and-message-container{
+  /* Media query footer. */
+  #page-container {
+    position: relative;
+    min-height: 170vh;
+  }
   
-position:relative;
-left:auto;
-top:auto;
-width:350px;
+  #content-wrap {
+    padding-bottom: 2.5rem;   
+  }
+  
+  #footer {
+    position: absolute;
+    display: inline;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+  }
 
-}
+  .social-networks {
+    text-align: center;
+    padding: 0;
+  }
+  
+  .social-networks > li {
+    display: inline;
+  }
+  
+  .social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 8%;
+    padding-right: 20px;
+    color: #424B54;
+  }
 
-#result-and-message {
+  /* Media query quiz and form style. */
+  .form-section {
+    font-size: 15px;
+    padding-top: 150px;
+    padding-left: 20px;
+  }
 
-width: 350px;
-height:200px;
-}
+  #quiz-area {
+    padding-left: 20px;
+    padding-top: 150px;
+  }
 
-#result-image { 
-width:350px;
-height:200px;
-margin-left: 80px;
-margin-bottom:10px;
-}
+  /* Mobile media query for quiz results */
+  #result-and-message-container {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 350px;
+  }
+
+  #result-and-message {
+    width: 350px;
+    height: 200px; 
+  }
+
+  #result-image { 
+    width: 350px;
+    height: 200px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+  }
 }
