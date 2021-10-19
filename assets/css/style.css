@@ -169,10 +169,11 @@ body {
 #result-and-message {
   font-size: 20px;
   color: #3a3a3a;
-  background-color: #EBCFB2;
   text-align:center;
-  border: 1px solid;
-  
+  height:400px;
+  padding-top: 70px;
+  padding-right:5px;
+  padding-left:5px;
   
 }
 
@@ -182,23 +183,23 @@ body {
   top:200px;
   font-size: 20px;
   color: #3a3a3a;
-  background-color: #EBCFB2;
   text-align:center;
+  background-color: bisque;
   border: 1px solid;
   width:800px;
   height:400px;
-  display:none;
+  display: none;
   
   
 }
 #result-image {
   background-image: url('../images/nutritionist.jpg');
-  background-color:red;
-  width:600px;
+  width:400px;
   height: 400px;
   background-size: contain;
   background-repeat: no-repeat;
   float:left;
+  
    
 }
 
