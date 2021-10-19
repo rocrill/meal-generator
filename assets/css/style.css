@@ -10,6 +10,7 @@ body {
 
 }
 
+/* */
 #veg-portion {
   width: 300px;
   height: 600px; 
@@ -164,21 +165,42 @@ body {
   color: #424B54;
 }
 
-/* Result and message on Quiz page
+/*Result and message on Quiz page*/
 #result-and-message {
   font-size: 20px;
   color: #3a3a3a;
   background-color: #EBCFB2;
-  position: absolute;
-  right:600px;
-  bottom:60px;
   text-align:center;
   border: 1px solid;
-  width:400px;
-  height:100px;
+  
   
 }
-*/
+
+#result-and-message-container{
+  position: absolute;
+  left:700px;
+  top:200px;
+  font-size: 20px;
+  color: #3a3a3a;
+  background-color: #EBCFB2;
+  text-align:center;
+  border: 1px solid;
+  width:800px;
+  height:400px;
+  display:none;
+  
+  
+}
+#result-image {
+  background-image: url('../images/nutritionist.jpg');
+  background-color:red;
+  width:600px;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:left;
+   
+}
 
 /* Mobile media query */
 
