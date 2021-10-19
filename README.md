@@ -378,9 +378,9 @@ Steak image by Divily on [Pixabay](https://pixabay.com/photos/steak-flesh-schnit
 
 Rice image by Kalyani Akella on [Unsplash](https://unsplash.com/photos/vCNLO20cuwY)
 
-Penne image by Ben Lei on [Unsplash]https://unsplash.com/photos/flFd8L7_B3g
+Penne image by Ben Lei on [Unsplash](https://unsplash.com/photos/flFd8L7_B3g)
 
-Sourdough image by Vicky Ng on [Unsplash]https://unsplash.com/photos/JlwXPO7DStM
+Sourdough image by Vicky Ng on [Unsplash](https://unsplash.com/photos/JlwXPO7DStM)
 
 Vegetable category image by Chantal Garnier on [Unsplash](https://unsplash.com/photos/910GanwBoew)
 
