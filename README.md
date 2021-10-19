@@ -258,23 +258,47 @@ At the final stages of the project the W3C Markup Validator and W3C CSS Validato
 
 ### Validator Testing 
 
-- HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Frocrill.github.io%2Fmeal-generator%2F
-- CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frocrill.github.io%2Fmeal-generator%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* HTML Validator Errors & Warnings:
+
+  * Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+
+    Fixed: Changed a `section` element to a `div` element as the heading was not required.
+
+  * Error: Character reference was not terminated by a semicolon.
+
+    Fixed: Added semicolon to `&nbsp;` HTML entities.
+
+  * Error: The value of the `for` attribute of the `label` element must be the ID of a non-hidden form control.
+
+    Fixed: Changed the label's `for` attribute to the same as the `id` name of what the label is for.
+
+  * Error: No space between attributes.
+
+    Fixed: Got rid of semicolon after `onclick` event function. 
+
+  * Error: Element “head” is missing a required instance of child element “title”.
+
+    Fixed: Put missing `title` in the `head` of the quiz.html file.
+
+* CSS Validator Errors & Warnings: None.
+  
+- HTML: No errors were returned on the final passing of the site through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frocrill.github.io%2Fmeal-generator%2F)
+- CSS: No errors were found on the final passing of the site through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frocrill.github.io%2Fmeal-generator%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 - JavaScript
- - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+    - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
     - The following metrics were returned:
-    -In quiz.js:
-      -There are 2 functions in this file.
-      -Function with the largest signature take 0 arguments, while the median is 0.
-      -Largest function has 23 statements in it, while the median is 14.
-      -The most complex function has a cyclomatic complexity value of 11 while the median is 6.5.  
-    -In script.js:
-      -There are 2 functions in this file.
-      -Function with the largest signature take 2 arguments, while the median is 1.
-      -Largest function has 23 statements in it, while the median is 13.
-      -The most complex function has a cyclomatic complexity value of 11 while the median is 6.  
+    - In quiz.js:
+      - There are 2 functions in this file.
+      - Function with the largest signature take 0 arguments, while the median is 0.
+      - Largest function has 32 statements in it, while the median is 19.
+      - The most complex function has a cyclomatic complexity value of 11 while the median is 6.5. 
+    - In script.js:
+      - There are 2 functions in this file.
+      - Function with the largest signature take 2 arguments, while the median is 1.
+      - Largest function has 26 statements in it, while the median is 14.5.
+      - The most complex function has a cyclomatic complexity value of 12 while the median is 6.5.
+
 ### Bugs
 
 * Fixed:
