@@ -1,3 +1,4 @@
+// List of carbohydrate images.
 let carb = [
     {
         name:"Fried rice",
@@ -22,9 +23,9 @@ let carb = [
         name:"Sweet potato fries",
         image:"url('./assets/images/sweet-potato-fries.jpg')",
     },
-    
 ];
 
+// List of protein images.
 let protein = [
     {
         name:"Pan-fried salmon",
@@ -68,6 +69,7 @@ let protein = [
     },
 ];
 
+// List of vegetable images.
 let veg = [
     {
         name:"Roasted asparagus",
@@ -84,13 +86,13 @@ let veg = [
     {
         name:"Steamed broccoli",
         image:"url('./assets/images/broccoli.jpg')",
-    },
-    
+    }, 
 ];
  
-
+// Generates meal suggestion comprised of 50% veg, 25% protein and 25% carb, 
+// by randomly selecting images from each category, 
+// taking into account user's dietary requirements.
 function generateMeal() {
-    
     let carbSelection = 0;
     let vegSelection = 0;
     let proteinSelection = 0;
@@ -131,9 +133,9 @@ function generateMeal() {
     document.getElementById("carb-result").innerHTML = `Carbohydrate:&nbsp ${carb[carbSelection].name}`;
     document.getElementById("protein-result").innerHTML = `Protein:&nbsp ${protein[proteinSelection].name}`;
     document.getElementById("veg-result").innerHTML = `Vegetables:&nbsp ${veg[vegSelection].name}`;
-   
 }
 
+// Returns random integer in the given range.
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
