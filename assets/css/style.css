@@ -88,7 +88,7 @@ body {
   letter-spacing: 4px;
   position: absolute;
   top: 10px;
-  left:40px;
+  left:30px;
 }
 
 .inspire-button {
@@ -210,8 +210,6 @@ body {
       overflow-x: initial !important;
   }
   
-  
-
   #menu {
       font-size: 30px;
       font-weight: bold;

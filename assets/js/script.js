@@ -1,5 +1,4 @@
-
- let carb = [
+let carb = [
     {
         name:"Fried rice",
         image:"url('./assets/images/fried-rice.jpg')",
