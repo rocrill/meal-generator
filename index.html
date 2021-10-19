@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- font awesome and google fonts -->
+    <!-- Font awesome and google fonts. -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento&display=swap" rel="stylesheet">
@@ -16,81 +16,76 @@
 <body>
     <div id="page-container">
         <div id="content-wrap">
- 
-    <header id="header">
+            <header id="header">
+                <!-- Page heading and navigation bar. -->      
+                <h1 id="heading">Balanced Meal Generator</h1>
+                <nav>
+                    <ul id="menu">
+                        <li>
+                            <a href="quiz.html">Nutrition Quiz</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="active">Home</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
 
-    <!-- Page heading and navigation bar -->      
-    <h1 id="heading">Balanced Meal Generator</h1>
-    
-        <nav>
-            <ul id="menu">
+            <!-- Dietary requirements form. --> 
+            <section class="form-section">
+                <h2>1. Select your dietary requirements</h2>
+                <br>
+                <label for="omnivore">None</label>
+                <input type="radio" name="diet" id="omnivore" value="omnivore" required checked><br>
+                <label for="vegetarian-diet">Vegetarian</label>
+                <input type="radio" name="diet" id="vegetarian-diet" value="vegetarian" required><br>
+                <label for="vegan-diet">Vegan</label>
+                <input type="radio" name="diet" id="vegan-diet" value="vegan" required><br>
+                <label for="paleo-diet">Paleo</label>
+                <input type="radio" name="diet" id="paleo-diet" value="paleo" required>
+            </section>
+
+            <!-- Plate area displaying generated meals. -->
+            <div id="plate-area">
+                <div id="veg-portion"></div>
+                <div id="protein-portion"></div>
+                <div id="carb-portion"></div>
+            </div>
+
+            <!-- Generate meal button and text results. --> 
+            <div id="button-and-results">
+                <h2>2. Get inspired: &nbsp;&nbsp;<button type="button" class="inspire-button" onclick="generateMeal()">
+                    Inspire me!</button>
+                </h2>
+                <div>
+                    <p id="carb-result">Carbohydrate: 25%</p>
+                </div>
+                <div>
+                    <p id="protein-result">Protein: 25%</p>
+                </div>
+                <div>
+                    <p id="veg-result">Vegetables: 50%</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer. --> 
+        <footer id="footer">
+            <ul class="social-networks">
                 <li>
-                    <a href="quiz.html">Nutrition Quiz</a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
                 </li>
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
                 </li>
             </ul>
-        </nav>
-    </header>
-
-    <!--dietary requirements form--> 
-    <section class="form-section">
-    
-        <h2>1. Select your dietary requirements</h2>
-        <br>
-        <label for="omnivore">None</label>
-        <input type="radio" name="diet" id="omnivore" value="omnivore" required checked><br>
-        <label for="vegetarian-diet">Vegetarian</label>
-        <input type="radio" name="diet" id="vegetarian-diet" value="vegetarian" required><br>
-        <label for="vegan-diet">Vegan</label>
-        <input type="radio" name="diet" id="vegan-diet" value="vegan" required><br>
-        <label for="paleo-diet">Paleo</label>
-        <input type="radio" name="diet" id="paleo-diet" value="paleo" required>
-    
-    </section>
-
-    <!-- Plate area displaying generated meals -->
-
-    <div id="plate-area">
-        <div id="veg-portion"></div>
-        <div id="protein-portion"></div>
-        <div id="carb-portion"></div>
+        </footer>
     </div>
 
-    <!-- Generate meal button and text results --> 
-    <div id="button-and-results">
-        <h2>2. Get inspired: &nbsp;&nbsp;<button type="button" class="inspire-button" onclick="generateMeal()">
-            Inspire me!</button>
-        </h2>
-        
-        <div>
-            <p id="carb-result">Carbohydrate: 25%</p>
-        </div>
-        <div>
-            <p id="protein-result">Protein: 25%</p>
-        </div>
-        <div>
-            <p id="veg-result">Vegetables: 50%</p>
-        </div>
-    </div>
-    
-    </div>
-    <footer id="footer">
-        <ul class="social-networks">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
-    </div>
-
+    <!-- Link to JavaScript script.js file. --> 
     <script src="assets/js/script.js"></script>
 </body>
 </html>
