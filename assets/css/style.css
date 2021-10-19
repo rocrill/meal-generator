@@ -339,4 +339,24 @@ left:15px;
       padding-right: 20px;
       color: #424B54;
     }
+
+
+/* Mobile media query for quiz results */
+
+#result-and-message-container{
+  
+position:relative;
+}
+
+#result-and-message {
+
+width: 200px;
+height:400px;
+}
+
+#result-image {
+  
+width:200px;
+height:400px;
+}
 }

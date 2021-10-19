@@ -1,3 +1,4 @@
+//Calculates the quiz score by incrementing the score total by 1 whenever the correct answer has been selected. 
 function calculateScore() {
   let score = 0;
 
@@ -20,13 +21,14 @@ function calculateScore() {
     score = score+1;
   }
  
+  // Rounds quiz score to a while numnber and displays score as a percentage. 
   let scorePercent = Math.round((score/6)*100);
   document.getElementById("quiz-result").innerHTML = "Result:"+ scorePercent + "%";
   
-  /* Use input name to include in result message */
+  // Gets user input name to include in result message. 
   let fName = document.getElementById("input_id").value;
 
-  /* Score determines result message */
+  // Determines what message and image is displayed to the user depending on their quiz score.
   if (scorePercent>=90) {
     document.getElementById("result-message").innerHTML = `Congrats ${fName}, you got ${scorePercent}%! You must be a qualified nutritionist!`;
     document.getElementById("result-image").style.backgroundImage = "url('./assets/images/nutritionist.jpg')";
@@ -48,6 +50,7 @@ function calculateScore() {
   }
 }
 
+// Clears all radio buttons and any result message and image displayed from a previous quiz round.
 function refreshPage() {
   const radio = document.getElementsByTagName("input");
 
