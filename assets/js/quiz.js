@@ -23,14 +23,18 @@ function calculateScore() {
   let scorePercent = Math.round((score/6)*100);
   document.getElementById("quiz-result").innerHTML = "Result:"+ scorePercent + "%";
   
+  /* Use input name to include in result message */
+  let fName = document.getElementById("input_id").value;
+
+  /* Score determines result message */
   if (scorePercent>=90) {
-    document.getElementById("result-message").innerHTML = `Huzzah! You got ${scorePercent}%! You must be a qualified nutritionist!`;
+    document.getElementById("result-message").innerHTML = `Congrats ${fName}, you got ${scorePercent}%! You must be a qualified nutritionist!`;
   } else if (scorePercent>=60) {
-    document.getElementById("result-message").innerHTML = `Nice! You got ${scorePercent}%! :)`;
+    document.getElementById("result-message").innerHTML = `Nice work ${fName}! You got ${scorePercent}%! :)`;
   } else if (scorePercent>=30) {
-    document.getElementById("result-message").innerHTML = `Hmm, you got ${scorePercent}%! ... your nutritional knowledge could be worse, but you should still probably give our meal generator a go!`;
+    document.getElementById("result-message").innerHTML = `Hmm, you got ${scorePercent}% ${fName}! ... your nutritional knowledge could be worse, but you should still probably give our meal generator a go!`;
   } else {
-    document.getElementById("result-message").innerHTML = `Wow, you got ${scorePercent}%! ... you could probably use our meal generator!`;  
+    document.getElementById("result-message").innerHTML = `Wow ${fName}, you got ${scorePercent}%! ... you could probably use our meal generator!`;  
   }
 }
 
