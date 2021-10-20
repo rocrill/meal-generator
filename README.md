@@ -342,12 +342,15 @@ Nutrition quiz - desktop
 
 The Code Institute LMS content, as well as some posts on Stackoverflow were used to create this site. All code taken from these resources has been adapted to suit the needs of this site, except for the specific cases referenced below.
 
-* The following articles were used to achieve the quarter and semi-circle plate sections shape and positioning for the meal generator.
+* The following four articles were used to achieve the quarter and semi-circle plate sections shape and positioning for the meal generator.
 
-[Code Grepper](https://www.codegrepper.com/code-examples/css/make+a+quarter+of+circle+css)
-[W3Schools](https://www.w3schools.com/css/css3_borders.asp) 
-[Singhak](https://singhak.in/draw-half-and-quarter-circle-with-css/)
-[Free Code Camp](https://www.freecodecamp.org/news/how-to-use-the-position-property-in-css-to-align-elements-d8f49c403a26/#:~:text=In%20position%3A%20relative%20%2C%20the%20element,corner)%20of%20its%20parent%20element.)
+  * [Code Grepper](https://www.codegrepper.com/code-examples/css/make+a+quarter+of+circle+css)
+
+  * [W3Schools](https://www.w3schools.com/css/css3_borders.asp) 
+
+  * [Singhak](https://singhak.in/draw-half-and-quarter-circle-with-css/)
+
+  * [Free Code Camp](https://www.freecodecamp.org/news/how-to-use-the-position-property-in-css-to-align-elements-d8f49c403a26#:~:text=In%20position%3A%20relative%20%2C%20the%20element,corner%20of%20its%20parent%20element.)
 
 * This [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) article was used to get the math.random function used in the meal generator.
 
