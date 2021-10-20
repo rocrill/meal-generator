@@ -36,7 +36,7 @@ The website also contains a nutrition quiz to provide some light entertainment f
 The site has 2 pages: 
 
 Home page - The 'Home' page contains an eye-catching plate image, which is divided into 3 sections - 50% of vegetable content, 25% of protein content and 25% of carbohydrate content. 
-There user is first invited to select their dietary preference by clicking on the appropriate radio button. 
+The user is first invited to select their dietary preference by clicking on the appropriate radio button. 
 There is then a clear 'Inspire me!' call to action button which generates a new meal idea everytime the user clicks it, sticking to the recommended food group percentages. 
 
 Nutrition quiz -  The 'Nutrition quiz' page gives the user a chance to put their nutritional knowledge to the test, providing some light entertainment which relates to the main feature of the site - the meal generator.
@@ -84,7 +84,7 @@ As the site was developed some additional features were added which were not inc
 
   All images were sourced from [Pexels](https://www.pexels.com/), [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/).
 
-  The main feature of the home page is the meal generator plate which comprises of three sepoarate images for the different food groups. This is set to images which represent each food group when the user first arrives on the page, and these are then replaced with new images according to the plate section each time the user clicks to generate new meal inspiration. 
+  The main feature of the home page is the meal generator plate which comprises of three separate images for the different food groups. This is set to images which represent each food group when the user first arrives on the page, and these are then replaced with new images according to the plate section each time the user clicks to generate new meal inspiration. 
 
 ## Features
 
@@ -110,7 +110,7 @@ As the site was developed some additional features were added which were not inc
 
 * Dietary Requirements section
 
-  * On the home page, the user is initially directed to the first step of generating their meal - selecting their dietary requirements. The diet options are provided as a list of radio buttons. Depending on what diet the user selects, the meal generator plate will only return results that are appropriate for that diet. 
+  * On the home page, the user is initially directed to the first step of generating their meal - selecting their dietary requirements. The diet options are provided as a list of radio buttons. Depending on what diet the user selects, the meal generator plate will only return results that meet the criteria for that diet. 
 
   Desktop:
 
@@ -122,7 +122,7 @@ As the site was developed some additional features were added which were not inc
 
 * Meal generator
 
-  * Once the user has selected their diet of choice, they are invited to click the 'inspire me!' button which will generate a meal idea in line with their diet, and displayed as 50% of the plate for the vegetable portion, and 25% each for the protein and carbohydrate portions. Each time the user clicks the button, a new meal idea will be returned by randomly selecting a dish from the website's selection for each category.
+  * Once the user has selected their diet of choice, they are invited to click the 'inspire me!' button which will generate a meal idea in line with that diet, and which will be displayed as 50% vegetables, 25% protein and 25% carbohydrate. Each time the user clicks the button, a new meal idea will be returned by randomly selecting a dish from the website's selection for each category.
 
   Desktop - 'Inspire me!' button:
 
@@ -142,9 +142,9 @@ As the site was developed some additional features were added which were not inc
 
 * Nutrition Quiz
 
-  * The second page of the site has a nutrition quiz which is offered as some light entertainment for the user, and to share some interesting nutrition facts which the user may not have been aware of. This is a multiple choice quiz in which the user is given four answer options per question. At the end of the quiz they click the submit button which calculates and returns their quiz score.
+  * The second page of the site has a nutrition quiz which is offered as some light entertainment for the user, and to share some interesting nutrition facts which the user may not have been aware of. This is a multiple choice quiz in which the user is given four answer options per question. At the end of the quiz they click the 'submit' button which calculates and returns their quiz score.
   * Depending on the user's quiz score, a percentage result and accompanying message and image are generated. For the lower-end scores (0 - 29%), the message suggests that the user may benefit from using the balance meal generator; for 30 - 59%, the user is given kudos for their respectable level of nutritional knowldege but may still benefit from the meal generator. For scores between 60 - 89%, the user receives a congratulations; and for scores from 90% and above, users are compared to a qualified nutritionist.
-  * Beside the 'submit' button is a refresh button which clears all of the checked radio buttons on the page as well as the result and message, if there is one displayed at that time.
+  * Beside the 'submit' button is a 'refresh' button which clears all of the checked radio buttons on the page as well as the result and message, if there is one displayed at that time.
 
   Desktop - Nutrition quiz:
 
@@ -197,6 +197,7 @@ As the site was developed some additional features were added which were not inc
 * [Am I Responsive](http://ami.responsivedesign.is/) - to produce a preview of the site on different devices.
 * [W3C HTML Validator](https://validator.w3.org/#validate_by_input) - to validate HTML code.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate CSS code.
+* [JShint](https://jshint.com/) - to validate JavaScript code.
 * [GitHub](https://github.com/) - for hosting the project code and version control.
 * [Gitpod](https://gitpod.io/account) - to write the code and push it to GitHub.
 * [Github Pages](https://pages.github.com/) - to deploy the site.
