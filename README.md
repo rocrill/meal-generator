@@ -368,41 +368,41 @@ The Code Institute LMS content, as well as some posts on Stackoverflow were used
 
 Images were sourced from Unsplash, Pexels and Pixabay.
 
-Spinach image by Ponce Photogrpahy on [Pixabay](https://pixabay.com/photos/spinach-healthy-green-dieting-1427360/)
+* Spinach image by Ponce Photogrpahy on [Pixabay](https://pixabay.com/photos/spinach-healthy-green-dieting-1427360/)
 
-Peppers image by Kareni on [Pixabay](https://pixabay.com/photos/fire-embers-blind-cob-barbecue-2697189/)
+* Peppers image by Kareni on [Pixabay](https://pixabay.com/photos/fire-embers-blind-cob-barbecue-2697189/)
 
-Mashed potatoes image by 422737 on [Pixabay](https://pixabay.com/photos/mashed-potatoes-potatoes-meal-food-439984/)
+* Mashed potatoes image by 422737 on [Pixabay](https://pixabay.com/photos/mashed-potatoes-potatoes-meal-food-439984/)
 
-Roast chicken image by RitaE on [Pixabay](https://pixabay.com/photos/chicken-roast-chicken-4110208/)
+* Roast chicken image by RitaE on [Pixabay](https://pixabay.com/photos/chicken-roast-chicken-4110208/)
 
-Salmon image by cattalin on [Pixabay](https://pixabay.com/photos/salmon-fish-seafood-veggies-salad-518032/)
+* Salmon image by cattalin on [Pixabay](https://pixabay.com/photos/salmon-fish-seafood-veggies-salad-518032/)
 
-Steak image by Divily on [Pixabay](https://pixabay.com/photos/steak-flesh-schnitzel-chop-grill-2936531/)
+* Steak image by Divily on [Pixabay](https://pixabay.com/photos/steak-flesh-schnitzel-chop-grill-2936531/)
 
-Rice image by Kalyani Akella on [Unsplash](https://unsplash.com/photos/vCNLO20cuwY)
+* Rice image by Kalyani Akella on [Unsplash](https://unsplash.com/photos/vCNLO20cuwY)
 
-Penne image by Ben Lei on [Unsplash](https://unsplash.com/photos/flFd8L7_B3g)
+* Penne image by Ben Lei on [Unsplash](https://unsplash.com/photos/flFd8L7_B3g)
 
-Sourdough image by Vicky Ng on [Unsplash](https://unsplash.com/photos/JlwXPO7DStM)
+* Sourdough image by Vicky Ng on [Unsplash](https://unsplash.com/photos/JlwXPO7DStM)
 
-Vegetable category image by Chantal Garnier on [Unsplash](https://unsplash.com/photos/910GanwBoew)
+* Vegetable category image by Chantal Garnier on [Unsplash](https://unsplash.com/photos/910GanwBoew)
 
-Carb category image by congerdesign on [Pixabay](https://pixabay.com/photos/noodles-rice-potatoes-food-pasta-516635/)
+* Carb category image by congerdesign on [Pixabay](https://pixabay.com/photos/noodles-rice-potatoes-food-pasta-516635/)
 
-Protein category image by Sam Moqadam on [Unsplash](https://unsplash.com/photos/VpOpy6QrDrs)
+* Protein category image by Sam Moqadam on [Unsplash](https://unsplash.com/photos/VpOpy6QrDrs)
 
-Broccoli image by auntmasako on [Pixabay](https://pixabay.com/photos/broccoli-green-fresh-vivid-1630519/)
+* Broccoli image by auntmasako on [Pixabay](https://pixabay.com/photos/broccoli-green-fresh-vivid-1630519/)
 
-Chickpea image by Clark Douglas on [Unsplash](https://unsplash.com/photos/LvL8u99H0mY)
+* Chickpea image by Clark Douglas on [Unsplash](https://unsplash.com/photos/LvL8u99H0mY)
 
-Halloumi image by Nastasya Day on [Pixabay](https://pixabay.com/photos/cheese-halloumi-fried-grill-milk-6466491/)
+* Halloumi image by Nastasya Day on [Pixabay](https://pixabay.com/photos/cheese-halloumi-fried-grill-milk-6466491/)
 
-Omelette image by mhurton on [Pixabay](https://pixabay.com/photos/omelette-eggs-fork-spinach-food-1071021/)
+* Omelette image by mhurton on [Pixabay](https://pixabay.com/photos/omelette-eggs-fork-spinach-food-1071021/)
 
-Nutritionist image by Yaroslav Shuraev on [Pexels](https://www.pexels.com/photo/food-people-woman-coffee-8845668/)
+* Nutritionist image by Yaroslav Shuraev on [Pexels](https://www.pexels.com/photo/food-people-woman-coffee-8845668/)
 
-Nutritionist image by Yilmaz Akin on [Unsplash](https://unsplash.com/photos/FPKtCl74Hfs)
+* Nutritionist image by Yilmaz Akin on [Unsplash](https://unsplash.com/photos/FPKtCl74Hfs)
 
 # Acknowledgements
 
